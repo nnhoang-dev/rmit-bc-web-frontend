@@ -2,9 +2,7 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
-import { cx } from 'class-variance-authority';
-import { Nunito_Sans, Open_Sans, Poppins } from "next/font/google";
-import Head from 'next/head';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: 'RMIT Business Club',
@@ -22,6 +20,7 @@ export default function RootLayout({
         < Header />
         {children}
         < Footer />
+        <SpeedInsights />
       </body>
     </html >
   );
