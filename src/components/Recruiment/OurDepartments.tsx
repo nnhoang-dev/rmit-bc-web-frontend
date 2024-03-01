@@ -1,20 +1,25 @@
 import React from 'react';
+import Title from '../Title';
 
 const OurDepartments = () => {
     const departments = ['Marketing', 'Human Resources', 'External relations', 'Research and Development'];
 
     return (
-        <div className='w-full flex flex-col justify-center items-center'>
-            <div className='font-extrabold text-7xl text-center text-primary my-20'>Our Departments</div>
-            <div className='w-full'>
+        <div className='w-full flex flex-col justify-center items-center mt-10'>
+            <Title title="Our Departments" />
+
+            <div className='w-full mt-10'>
                 {
                     departments.map((v, i) => (
-                        <div key={i} className='h-28 w-full bg-gradient-to-r from-black to-primary mb-8 flex justify-center items-center
-                                                        text-4xl text-white even:ml-auto cursor-pointer
+                        <div key={i} className='flex'>
+                            {i % 2 != 0 && (<div className='basis-5/12'></div>)}
+                            <div className='h-28 basis-7/12 bg-gradient-to-r from-black to-primary mb-8 flex justify-center items-center
+                                                        text-white cursor-pointer 
                                                         shawdow-[10px 5px 5px red] shadow-[15px_15px_rgba(0,0,0,0.5)]
-                                                        lg:w-3/5
+                                                        lg:w-3/5 sm:text-2xl text-center p-4
                                                         '>
-                            {v}
+                                {v}
+                            </div>
                         </div>
                     ))
                 }

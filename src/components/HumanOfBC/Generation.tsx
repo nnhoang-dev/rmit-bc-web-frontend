@@ -12,63 +12,69 @@ const Generation = () => {
     return (
         <div className='max-w-screen-xl mx-auto flex flex-col items-center text-black px-2 py-20'>
             <div className='w-full'>
-                <div className='text-center text-6xl font-black'>HUMAN OF BC</div>
-                <div className='w-full text-3xl text-primary font-bold mt-20'>Generation 19</div>
+                <div className='text-center text-4xl font-black'>HUMAN OF BC</div>
+                <div className='w-full text-2xl text-primary font-bold mt-10'>Generation 19</div>
                 <div className='flex flex-col items-center'>
-                    <div className='w-full flex items-center justify-between  mt-20'>
-                        <div className='flex '>
+                    <div className='w-full flex flex-col-reverse lg:flex-row items-center justify-between '>
+                        <div className='flex flex-wrap sm:flex-row mt-5 -mx-1 md:-mx-2 w-full md:basis-7/12'>
                             {data.map((v, i) => (
-                                <div key={i} className='group overflow-hidden relative mr-3 last:mr-0 even:mt-10 h-52 w-40 bg-gray-400'>
-                                    <Image alt="Picture of the author"
-                                        width={500}
-                                        height={500}
-                                        style={{
-                                            objectFit: 'cover',
-                                            height: '100%',
-                                            width: '100%'
-                                        }}
-                                        loader={() => 'https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/399862577_4391509687741506_4961352823905162984_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=iPRSFIarTeIAX8F6VuY&_nc_ht=scontent-hkg1-2.xx&oh=00_AfDL_1LyXHE-XyvzTu89wkcPhqyes1by_BNozI51V93oHw&oe=65ADEBD9'}
-                                        src={'me.png'}
-                                    />
-                                    <div className='-bottom-[40%] group-hover:bottom-0 transition-all ease-out duration-200
+                                <div key={i} className='mt-2 basis-1/2 sm:basis-3/12 group lg:even:mt-10 px-1 md:px-2 
+                                                        md:mt-0'>
+                                    <div className='overflow-hidden relative  bg-gray-400 '>
+                                        <Image alt="Picture of the author"
+                                            width={500}
+                                            height={500}
+                                            style={{
+                                                objectFit: 'cover',
+                                                height: '100%',
+                                                width: '100%'
+                                            }}
+                                            loader={() => 'https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/427888582_4465617976997343_4359727408490062132_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFaKADCepgAeCRPFQKrheS2gwse2-Yfrf6DCx7b5h-t_mWUxWlEajP7gsqDjC9CCSeOu6_5SqQqV7ISmbDGHsws&_nc_ohc=cI280ttEmq8AX8wnUwd&_nc_ht=scontent-hkg4-1.xx&oh=00_AfD-ncs-C9JzGOm9k0sTYZKBrxrDYdaEG6nNpORSRP8O2A&oe=65E797E4'}
+                                            src={'me.png'}
+                                        />
+                                        <div className='-bottom-full group-hover:bottom-0 transition-all ease-out duration-200
                         flex flex-col justify-end absolute h-2/5 w-full bg-gradient-to-t to-white/0 from-[#9d140c]/80 p-2 text-[11px] text-white'>
-                                        <div className='font-bold'>{v.fullName}</div>
-                                        <div>{v.desc}</div>
+                                            <div className='font-bold'>{v.fullName}</div>
+                                            <div>{v.desc}</div>
+                                        </div>
                                     </div>
                                 </div>
                             ))}
                         </div>
-                        <div className='w-2/5'>
-                            <div className='text-5xl font-bold text-primary'>EXECUTIVE BOARD GENERATION 19</div>
-                            <div className='text-xl mt-5'>chữ gì đó mà chưa rõ chữ gì maybe mission gen này, vài lời sến sẩm, những cái đẻ ra tại gen này, etc.</div>
+                        <div className='h-full basis-5/12'>
+                            <div className='text-2xl font-bold text-primary mt-4'>EXECUTIVE BOARD GENERATION 19</div>
+                            <div className=' mt-2'>The executive board, acting as the leaders of BC, decides long-term and short-term objectives for the club. The executive board, consisting of 1 president, followed by 2 vice presidents, and 1 CFO, takes responsibility for monitoring the club toward the set goals. As Business Club is a student club of RMIT University, the executive board is responsible for preparing reports for each semester, annual reports, and plans to be submitted to the Student Life department.</div>
                         </div>
                     </div>
-                    <div className='flex items-center justify-between mt-20'>
-                        <div className='w-2/5'>
-                            <div className='text-5xl font-bold text-primary'>MANAGEMENT BOARD</div>
-                            <div className='text-xl mt-5'>chữ gì đó mà chưa rõ chữ gì maybe mission gen này, vài lời sến sẩm, những cái đẻ ra tại gen này, etc.</div>
-                        </div>
-                        <div className='flex '>
+                    <div className='w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-between '>
+                        <div className='flex flex-wrap sm:flex-row mt-5 -mx-1 md:-mx-2 w-full md:basis-7/12'>
                             {data.map((v, i) => (
-                                <div key={i} className='group overflow-hidden relative mr-3 last:mr-0 even:mt-10 h-52 w-40 bg-gray-400'>
-                                    <Image alt="Picture of the author"
-                                        width={500}
-                                        height={500}
-                                        style={{
-                                            objectFit: 'cover',
-                                            height: '100%',
-                                            width: '100%'
-                                        }}
-                                        loader={() => 'https://scontent-hkg1-2.xx.fbcdn.net/v/t39.30808-6/399862577_4391509687741506_4961352823905162984_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=iPRSFIarTeIAX8F6VuY&_nc_ht=scontent-hkg1-2.xx&oh=00_AfDL_1LyXHE-XyvzTu89wkcPhqyes1by_BNozI51V93oHw&oe=65ADEBD9'}
-                                        src={'me.png'}
-                                    />
-                                    <div className='-bottom-[40%] group-hover:bottom-0 transition-all ease-out duration-200
+                                <div key={i} className='mt-2 basis-1/2 sm:basis-3/12 lg group lg:even:mt-10 px-1 md:px-2 
+                                                        md:mt-0'>
+                                    <div className='overflow-hidden relative  bg-gray-400 '>
+                                        <Image alt="Picture of the author"
+                                            width={500}
+                                            height={500}
+                                            style={{
+                                                objectFit: 'cover',
+                                                height: '100%',
+                                                width: '100%'
+                                            }}
+                                            loader={() => 'https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/427888582_4465617976997343_4359727408490062132_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFaKADCepgAeCRPFQKrheS2gwse2-Yfrf6DCx7b5h-t_mWUxWlEajP7gsqDjC9CCSeOu6_5SqQqV7ISmbDGHsws&_nc_ohc=cI280ttEmq8AX8wnUwd&_nc_ht=scontent-hkg4-1.xx&oh=00_AfD-ncs-C9JzGOm9k0sTYZKBrxrDYdaEG6nNpORSRP8O2A&oe=65E797E4'}
+                                            src={'me.png'}
+                                        />
+                                        <div className='-bottom-full group-hover:bottom-0 transition-all ease-out duration-200
                         flex flex-col justify-end absolute h-2/5 w-full bg-gradient-to-t to-white/0 from-[#9d140c]/80 p-2 text-[11px] text-white'>
-                                        <div className='font-bold'>{v.fullName}</div>
-                                        <div>{v.desc}</div>
+                                            <div className='font-bold'>{v.fullName}</div>
+                                            <div>{v.desc}</div>
+                                        </div>
                                     </div>
                                 </div>
                             ))}
+                        </div>
+                        <div className='h-full basis-5/12'>
+                            <div className='text-2xl font-bold text-primary mt-4'>MANAGEMENT BOARD</div>
+                            <div className=' mt-2'>The Management Board, comprising four managers per department, is responsible for overseeing departmental operations each semester. They conduct quality control assessments, set departmental goals in line with official guidelines and the club's strategic plan, maintain communication among department members, and report to the Executive Board.</div>
                         </div>
                     </div>
                 </div>

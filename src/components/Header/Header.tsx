@@ -3,9 +3,9 @@ import React from 'react';
 
 const Header = () => {
     return (
-        <header>
+        <header className='text-base'>
             <div className='w-screen bg-primary h-20 border-b-[1px] border-solid text-white'>
-                <div className='max-w-screen-xl mx-auto h-full flex justify-between items-center px-2'>
+                <div className='container mx-auto px-2 h-full flex justify-between items-center'>
                     <Link href='/' >
                         <span>Business Club</span>
                     </Link>

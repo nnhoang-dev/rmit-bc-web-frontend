@@ -1,10 +1,12 @@
 import React from 'react';
+import Title from '../Title';
 
 const Awards = () => {
     return (
-        <div className='max-w-screen-lg mx-auto text-black px-2'>
-            <div className='flex flex-col justify-center items-center py-20 '>
-                <div className='text-4xl text-primary font-extrabold border-b-4 border-black px-5 pb-5'>Awards</div>
+        <div className='container mx-auto text-black px-2'>
+            <div className='flex flex-col justify-center items-center py-10 '>
+                <Title title="Awards" />
+
 
                 <div></div>
             </div>

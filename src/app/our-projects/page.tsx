@@ -47,52 +47,132 @@ const OurProjectsPage = () => {
             <div className='max-w-screen-xl mx-auto flex flex-col justify-center items-center my-20 px-2'>
                 <div className='font-bold text-5xl'>OUR PROJECTS</div>
                 <div className='w-full flex flex-col justify-center items-center'>
-                    <div className='text-primary text-3xl font-bold mt-10'>Annual Events</div>
-                    <div className='w-full flex flex-col justify-center items-center lg:flex-row lg:flex-wrap -mx-4'>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
+                    <div className='text-4xl text-primary font-extrabold border-b-4 border-black mt-5 px-5 pb-5'>Annual Events </div>
+
+                    <div className='w-full flex flex-wrap md:-mx-2 lg:-mx-4'>
+                        <div className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                                        mt-2 lg:mt-8 md:mt-4  '>
+                            <div className='shadow-lg border'>
+                                <div className='w-full h-52 bg-gray-400'></div>
+                                <div className='p-4 pb-8'>
+                                    <div className='text-xs'>
+                                        <span>Biennially</span>
+                                        <span className='mx-4'>|</span>
+                                        <span>Nationwide undergraduates</span>
+                                    </div>
+                                    <div className='font-bold mt-2'>Marketing Challengers Competition</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                                        mt-2 lg:mt-8 md:mt-4  '>
+                            <div className='shadow-lg border'>
+                                <div className='w-full h-52 bg-gray-400'></div>
+                                <div className='p-4 pb-8'>
+                                    <div className='text-xs'>
+                                        <span>Biennially</span>
+                                        <span className='mx-4'>|</span>
+                                        <span>Nationwide undergraduates</span>
+                                    </div>
+                                    <div className='font-bold mt-2'>Marketing Challengers Competition</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                                        mt-2 lg:mt-8 md:mt-4  '>
+                            <div className='shadow-lg border'>
+                                <div className='w-full h-52 bg-gray-400'></div>
+                                <div className='p-4 pb-8'>
+                                    <div className='text-xs'>
+                                        <span>Biennially</span>
+                                        <span className='mx-4'>|</span>
+                                        <span>Nationwide undergraduates</span>
+                                    </div>
+                                    <div className='font-bold mt-2'>Marketing Challengers Competition</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div className='w-full flex flex-col justify-center items-center'>
                     <div className='text-primary text-3xl font-bold mt-10'>Other Events</div>
-                    <div className='flex mt-10 text-gray-400'>
-                        <div className='text-2xl font-bold  lg:mx-10 cursor-pointer transition-all ease duration-200 text-primary' tabIndex={0} onClick={(e: React.MouseEvent<HTMLElement>) => { handleClick(e); }}>2023</div>
-                        <div className='text-2xl font-bold  lg:mx-10 cursor-pointer transition-all ease duration-200' tabIndex={1} onClick={(e: React.MouseEvent<HTMLElement>) => { handleClick(e); }}>2022</div>
-                        <div className='text-2xl font-bold  lg:mx-10 cursor-pointer transition-all ease duration-200' tabIndex={2} onClick={(e: React.MouseEvent<HTMLElement>) => { handleClick(e); }}>2021</div>
-                        <div className='text-2xl font-bold  lg:mx-10 cursor-pointer transition-all ease duration-200' tabIndex={3} onClick={(e: React.MouseEvent<HTMLElement>) => { handleClick(e); }}>2020</div>
-                        <div className='text-2xl font-bold  lg:mx-10 cursor-pointer transition-all ease duration-200' tabIndex={4} onClick={(e: React.MouseEvent<HTMLElement>) => { handleClick(e); }} > 2019</div >
-                    </div >
-                    <div className='w-full flex flex-col justify-center items-center lg:flex-row lg:flex-wrap -mx-4'>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
-                        <div className='w-4/5 aspect-square bg-gray-400 rounded-xl mt-10
-                                        lg:w-1/5 lg:mx-4'></div>
+                    <div className='border-2 border-gray-400 p-4 rounded-full w-4/5 flex justify-between'>
+                        <span>
+                            Type here</span>
+                        <span>O</span>
+                    </div>
+                    <div className='w-full mt-10 px-4 hidden md:block'>
+                        <div className='p-4 pr-0 bg-gray-200  flex'>
+                            <div className='flex flex-col'>
+                                <span className='mx-3 my-1 font-bold'>Audience:</span>
+                                <span className='mx-3 my-1 font-bold'>Event:</span>
+                                <span className='mx-3 my-1 font-bold'>Time:</span>
+                            </div>
+                            <div className=''>
+                                <div className='my-2'>
+                                    <span className='mx-4 text-primary '>All Audience</span>
+                                    <span className='mx-4'>Nationwide undergraduates</span>
+                                    <span className='mx-4'>RMIT undergraduates</span>
+                                </div>
+                                <div className='my-2'>
+                                    <span className='mx-4 text-primary '>All Event</span>
+                                    <span className='mx-4'>Upcoming</span>
+                                    <span className='mx-4'>Past</span>
+                                </div>
+                                <div className='my-2'>
+                                    <span className='mx-4 text-primary '>All Dates</span>
+                                    <span className='mx-4'>2024</span>
+                                    <span className='mx-4'>2023</span>
+                                    <span className='mx-4'>2022</span>
+                                    <span className='mx-4'>2021</span>
+                                    <span className='mx-4'>2020</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='w-full flex flex-wrap md:-mx-2 lg:-mx-4'>
+                        <div className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                                        mt-2 lg:mt-8 md:mt-4  '>
+                            <div className='shadow-lg border'>
+                                <div className='w-full h-52 bg-gray-400'></div>
+                                <div className='p-4 pb-8'>
+                                    <div className='text-xs'>
+                                        <span>Biennially</span>
+                                        <span className='mx-4'>|</span>
+                                        <span>Nationwide undergraduates</span>
+                                    </div>
+                                    <div className='font-bold mt-2'>Marketing Challengers Competition</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                                        mt-2 lg:mt-8 md:mt-4  '>
+                            <div className='shadow-lg border'>
+                                <div className='w-full h-52 bg-gray-400'></div>
+                                <div className='p-4 pb-8'>
+                                    <div className='text-xs'>
+                                        <span>Biennially</span>
+                                        <span className='mx-4'>|</span>
+                                        <span>Nationwide undergraduates</span>
+                                    </div>
+                                    <div className='font-bold mt-2'>Marketing Challengers Competition</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                                        mt-2 lg:mt-8 md:mt-4  '>
+                            <div className='shadow-lg border'>
+                                <div className='w-full h-52 bg-gray-400'></div>
+                                <div className='p-4 pb-8'>
+                                    <div className='text-xs'>
+                                        <span>Biennially</span>
+                                        <span className='mx-4'>|</span>
+                                        <span>Nationwide undergraduates</span>
+                                    </div>
+                                    <div className='font-bold mt-2'>Marketing Challengers Competition</div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div >
             </div >

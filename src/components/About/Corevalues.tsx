@@ -1,21 +1,29 @@
 import React from 'react';
+import Title from '../Title';
 
-const Corevalues = () => {
+const CoreValues = () => {
     const coreValues = ['Growth Mindset', 'Leadership', 'Initiative', 'Professional', 'Effective Communication'];
     return (
-        <div className='max-w-screen-xl mx-auto text-black px-2'>
-            <div className='flex flex-col justify-center items-center pt-20 '>
-                <div className='text-4xl text-primary font-extrabold border-b-4 border-black px-5 pb-5'>Core Values</div>
-                <div className='w-full flex justify-between text-white font-bold mt-10'>
+        <div className='container mx-auto text-black px-2'>
+            <div className='flex flex-col justify-center items-center pt-10 '>
+                <Title title="Cỏe Values" />
+
+                <div className='w-full flex justify-between text-white font-bold mt-10 -mx-2'>
                     {coreValues.map((v, i) => (
                         <div key={i}
-                            className='group overflow-hidden h-80 w-60 relative bg-gradient-to-r from-black to-primary flex justify-center items-center '>
-                            <div className='h-52 w-52 bg-gradient-to-br from-primary to-black rounded-full flex justify-center items-center text-7xl font-bold text-white
-                                            transition-all ease duration-500 backdrop-blur-sm '>
-                                <div className='group-hover:invisible flex justify-center items-center text-8xl text-center transition-all ease duration-150'>{v.slice(0, 1)}</div>
-                            </div>
-                            <div className='top-full opacity-0 group-hover:top-0 group-hover:opacity-100 h-full w-full backdrop-blur-sm absolute flex justify-center items-center text-2xl transition-all ease-out duration-200 bg-white/25'>
-                                <span className='text-center'>{v}</span>
+                            className='basis-1/5  group px-1 md:px-2  mt-5 relative
+                            h-32 sm:h-40 md:h-60  xl:h-80'>
+                            <div className='w-full h-full bg-gradient-to-r from-black to-primary flex justify-center items-center'>
+                                <div className='aspect-square w-4/5 bg-gradient-to-br from-primary to-black rounded-full flex justify-center items-center font-bold text-white
+                                            transition-all ease duration-500 backdrop-blur-sm
+                                            sm:text-lg md:text-2xl lg:text-4xl xl:text-6xl'>
+                                    <div className='group-hover:invisible flex justify-center items-center text-center transition-all ease duration-150
+                                    '>{v.slice(0, 1)}</div>
+                                </div>
+                                <div className='text-[6px] sm:text-xs md:text-base lg:text-lg 
+                                top-full opacity-0 group-hover:top-0 group-hover:opacity-100 h-full w-full backdrop-blur-sm absolute flex justify-center items-center  transition-all ease-out duration-200 bg-white/10'>
+                                    <span className='text-center  '>{v}</span>
+                                </div>
                             </div>
                         </div>
                     ))}
@@ -25,4 +33,4 @@ const Corevalues = () => {
     );
 };
 
-export default Corevalues;
+export default CoreValues;

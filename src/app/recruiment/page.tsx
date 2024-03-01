@@ -4,11 +4,9 @@ import React from 'react';
 
 const RecruimentPage = () => {
     return (
-        <div className="w-full">
-            <div className="max-w-screen-xl mx-auto flex-col mt-20 ">
-                <Recruiment />
-                <OurDepartments />
-            </div>
+        <div className="container mx-auto flex-col mt-10 p-2 text-base">
+            <Recruiment />
+            <OurDepartments />
         </div>
     );
 };
