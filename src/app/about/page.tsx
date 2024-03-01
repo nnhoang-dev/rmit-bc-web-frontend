@@ -2,8 +2,7 @@
 
 import AboutUs from '@/components/About/AboutUs';
 import Awards from '@/components/About/Awards';
-import Banner from '@/components/About/Banner';
-import CoreValues from '@/components/About/CoreValues';
+import CoreValues from '@/components/About/Corevalues';
 import VisionAndMision from '@/components/About/VisionAndMision';
 import React from 'react';
 
