@@ -6,7 +6,7 @@ const CoreValues = () => {
     return (
         <div className='container mx-auto text-black px-2'>
             <div className='flex flex-col justify-center items-center pt-10 '>
-                <Title title="Cỏe Values" />
+                <Title title="Core Values" />
 
                 <div className='w-full flex justify-between text-white font-bold mt-10 -mx-2'>
                     {coreValues.map((v, i) => (
