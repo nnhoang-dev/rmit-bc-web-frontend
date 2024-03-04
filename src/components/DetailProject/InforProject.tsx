@@ -1,7 +1,7 @@
 'use client';
 import React, { useEffect, useState } from 'react';
 
-const DetailProject = (props: any) => {
+const InforProject = (props: any) => {
     const [days, setDays] = useState(0);
     const [hours, setHours] = useState(0);
     const [minutes, setMinutes] = useState(0);
@@ -32,14 +32,14 @@ const DetailProject = (props: any) => {
         <div className='container mx-auto px-2'>
 
             <div className='w-full flex justify-center my-10'>
-                <h2 className=' font-bold text-4xl'>BCareer 2.0: Road to Management Trainee - Secrets to Success</h2>
-                <div className='ml-10 bg-gray-400 flex justify-center items-center'>
-                    <div className='px-4 font-bold text-white'>Past</div>
+                <h2 className=' font-bold text-xl sm:text-4xl'>BCareer 2.0: Road to Management Trainee - Secrets to Success</h2>
+                <div className='ml-2 flex justify-center items-center'>
+                    <div className='px-4 py-2 bg-gray-400  font-bold text-white'>Past</div>
                 </div>
             </div>
 
-            <div className='w-full flex bg-gray-200'>
-                <div className='basis-7/12'>
+            <div className='w-full flex flex-col-reverse md:flex-row bg-gray-200 p-8 '>
+                <div className='basis-7/12 my-5'>
                     <div className='flex items-center my-2'>
                         <div className='h-4 w-4 inline-block mr-4'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M96 32V64H48C21.5 64 0 85.5 0 112v48H448V112c0-26.5-21.5-48-48-48H352V32c0-17.7-14.3-32-32-32s-32 14.3-32 32V64H160V32c0-17.7-14.3-32-32-32S96 14.3 96 32zM448 192H0V464c0 26.5 21.5 48 48 48H400c26.5 0 48-21.5 48-48V192z" /></svg></div>
                         <span className=''>23 Aug 2023</span>
@@ -60,52 +60,48 @@ const DetailProject = (props: any) => {
                         <div className='h-4 w-4 inline-block mr-4'>
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM216 336h24V272H216c-13.3 0-24-10.7-24-24s10.7-24 24-24h48c13.3 0 24 10.7 24 24v88h8c13.3 0 24 10.7 24 24s-10.7 24-24 24H216c-13.3 0-24-10.7-24-24s10.7-24 24-24zm40-208a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" /></svg>
                         </div>
-                        <span className=''>01:30 pm - 05:00 pm</span>
+                        <span className=''>01:30 pm - 05:00 pm asdjksal asjdklas; asjdkl;a asjdkl; qwuoppi ádioup</span>
                     </div>
                 </div>
-                <div className='flex flex-col items-center basis-5/12'>
-                    <div className='flex'>
-                        <div className="basis-1/4 flex flex-col items-center mt-4 px-2">
-                            <div className=" relative bg-transparent flex flex-col items-center justify-center rounded-lg w-32 h-32 text-2xl md:text-4xl mt-4 ">
-                                <div className="text-5xl absolute text-primary z-10 font-bold md:text-7xl ">
+                <div className='flex flex-col items-center basis-5/12 my-5'>
+                    <div className='flex -mx-1 sm:-mx-2'>
+                        <div className="basis-1/4 flex flex-col items-center px-1 sm:px-2 ">
+                            <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg  h-24 w-20  text-2xl md:text-4xl ">
+                                <div className="text-3xl  text-primary z-10 font-bold md:text-5xl ">
                                     {days}
                                 </div>
-                                <div className=" rounded-b-lg rounded-t-lg bg-black/20 w-full h-full"></div>
                             </div>
-                            <p className="text-lg mt-3 font-semibold text-primary md:text-2xl ">
+                            <p className="text-base mt-3 font-semibold text-primary md:text-xl ">
                                 {'Days'}
                             </p>
                         </div>
-                        <div className="basis-1/4 flex flex-col items-center mt-4 px-2">
-                            <div className=" relative bg-transparent flex flex-col items-center justify-center rounded-lg w-32 h-32 text-2xl md:text-4xl mt-4 ">
-                                <div className="text-5xl absolute text-primary z-10 font-bold md:text-7xl ">
+                        <div className="basis-1/4 flex flex-col items-center px-1 sm:px-2 ">
+                            <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg  h-24 w-20  text-2xl md:text-4xl ">
+                                <div className="text-3xl  text-primary z-10 font-bold md:text-5xl ">
                                     {hours}
                                 </div>
-                                <div className=" rounded-b-lg rounded-t-lg bg-black/20 w-full h-full"></div>
                             </div>
-                            <p className="text-lg mt-3 font-semibold text-primary md:text-2xl ">
+                            <p className="text-base mt-3 font-semibold text-primary md:text-xl ">
                                 {'Hours'}
                             </p>
                         </div>
-                        <div className="basis-1/4 flex flex-col items-center mt-4 px-2">
-                            <div className=" relative bg-transparent flex flex-col items-center justify-center rounded-lg w-32 h-32 text-2xl md:text-4xl mt-4 ">
-                                <div className="text-5xl absolute text-primary z-10 font-bold md:text-7xl ">
+                        <div className="basis-1/4 flex flex-col items-center px-1 sm:px-2 ">
+                            <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg  h-24 w-20  text-2xl md:text-4xl ">
+                                <div className="text-3xl  text-primary z-10 font-bold md:text-5xl ">
                                     {minutes}
                                 </div>
-                                <div className=" rounded-b-lg rounded-t-lg bg-black/20 w-full h-full"></div>
                             </div>
-                            <p className="text-lg mt-3 font-semibold text-primary md:text-2xl ">
+                            <p className="text-base mt-3 font-semibold text-primary md:text-xl ">
                                 {'Minutes'}
                             </p>
                         </div>
-                        <div className="basis-1/4 flex flex-col items-center mt-4 px-2">
-                            <div className=" relative bg-transparent flex flex-col items-center justify-center rounded-lg w-32 h-32 text-2xl md:text-4xl mt-4 ">
-                                <div className="text-5xl absolute text-primary z-10 font-bold md:text-7xl ">
+                        <div className="basis-1/4 flex flex-col items-center px-1 sm:px-2 ">
+                            <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg  h-24 w-20  text-2xl md:text-4xl ">
+                                <div className="text-3xl  text-primary z-10 font-bold md:text-5xl ">
                                     {seconds}
                                 </div>
-                                <div className=" rounded-b-lg rounded-t-lg bg-black/20 w-full h-full"></div>
                             </div>
-                            <p className="text-lg mt-3 font-semibold text-primary md:text-2xl ">
+                            <p className="text-base mt-3 font-semibold text-primary md:text-xl ">
                                 {'Seconds'}
                             </p>
                         </div>
@@ -115,9 +111,11 @@ const DetailProject = (props: any) => {
                     <div className='bg-primary rounded-full w-60 px-8 py-4 my-2 font-bold text-xl text-center text-white'>Register Now</div>
                 </div>
             </div>
+
+            <p>These are short, famous texts in English from classic sources like the Bible or Shakespeare. Some texts have word definitions and explanations to help you. Some of these texts are written in an old style of English. Try to understand them, because the English that we speak today is based on what our great, great, great, great grandparents spoke before! Of course, not all these texts were originally written in English. The Bible, for example, is a translation. But they are all well known in English today, and many of them express beautiful thoughts.</p>
         </div >
 
     );
 };
 
-export default DetailProject;
+export default InforProject;

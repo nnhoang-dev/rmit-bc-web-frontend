@@ -5,12 +5,7 @@ import type { Config } from 'tailwindcss';
 const config = {
 	mode: 'jit',
 	darkMode: ['class'],
-	content: [
-		'./pages/**/*.{ts,tsx}',
-		'./components/**/*.{ts,tsx}',
-		'./app/**/*.{ts,tsx}',
-		'./src/**/*.{ts,tsx}',
-	],
+	content: ['./pages/**/*.{ts,tsx}', './components/**/*.{ts,tsx}', './app/**/*.{ts,tsx}', './src/**/*.{ts,tsx}'],
 	prefix: '',
 	theme: {
 		// colors: {
@@ -29,6 +24,9 @@ const config = {
 		extend: {
 			fontFamily: {
 				sans: ['"Poppins"', ...defaultTheme.fontFamily.sans],
+			},
+			dropShadow: {
+				'3xl': '0px 0px 0px #fff',
 			},
 			colors: {
 				black: '#000',
