@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <header className='text-base relative'>
 
-            <div className='w-screen bg-primary h-20 border-b-[1px] border-solid text-white'>
+            <div className='w-full bg-primary h-20 border-b-[1px] border-solid text-white'>
                 <div className='container mx-auto px-2 h-full flex justify-between items-center'>
                     <Link href='/' >
                         <span >Business Club</span>

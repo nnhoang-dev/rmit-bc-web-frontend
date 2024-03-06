@@ -5,7 +5,7 @@ import { FacebookIcon, InstagramIcon, LinkedinIcon, TiktokIcon } from '@/utils/s
 const Footer = () => {
     return (
         <footer className=''>
-            <div className=' w-screen mx-auto bg-gradient-to-t from-black to-primary text-white text-base '>
+            <div className=' w-full mx-auto bg-gradient-to-t from-black to-primary text-white text-base '>
                 <div className='container mx-auto h-full  py-8'>
                     <div className='w-full mx-auto flex flex-col md:flex-row items-center justify-between '>
                         <div className="max-w-[400px] md:basis-6/12 px-4 flex flex-col text-center md:text-left justify-center items-center" >
