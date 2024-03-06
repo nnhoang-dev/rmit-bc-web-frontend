@@ -33,27 +33,27 @@ const Header = () => {
                     </div>
                 </div>
                 <div className='container mx-auto px-2 text-white h-screen py-20 '>
-                    <div className='w-full flex flex-col  ml-auto text-right justify-center sm:h-full'>
+                    <div className='w-full flex flex-col  ml-auto text-right  sm:h-full'>
                         <Link href='/' >
-                            <div onClick={() => setNavbar(!navbar)} className='css my-4 text-transparent hover:text-white font-bold text-3xl sm:text-6xl  transition-all ease duration-200 cursor-pointer'>Home</div>
+                            <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>Home</div>
                         </Link>
                         <Link href='/about' >
-                            <div onClick={() => setNavbar(!navbar)} className='css my-4 text-transparent hover:text-white font-bold text-3xl sm:text-6xl  transition-all ease duration-200 cursor-pointer'>About</div>
+                            <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>About</div>
                         </Link>
                         <Link href='/' >
-                            <div onClick={() => setNavbar(!navbar)} className='css my-4 text-transparent hover:text-white font-bold text-3xl sm:text-6xl  transition-all ease duration-200 cursor-pointer'>Marketing Challengers</div>
+                            <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>Marketing Challengers</div>
                         </Link>
                         <Link href='/' >
-                            <div onClick={() => setNavbar(!navbar)} className='css my-4 text-transparent hover:text-white font-bold text-3xl sm:text-6xl  transition-all ease duration-200 cursor-pointer'>The Logisticom</div>
+                            <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>The Logisticom</div>
                         </Link>
                         <Link href='/recruiment' >
-                            <div onClick={() => setNavbar(!navbar)} className='css my-4 text-transparent hover:text-white font-bold text-3xl sm:text-6xl  transition-all ease duration-200 cursor-pointer'>Recruitment</div>
+                            <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>Recruitment</div>
                         </Link>
                         <Link href='/human-of-bc' >
-                            <div onClick={() => setNavbar(!navbar)} className='css my-4 text-transparent hover:text-white font-bold text-3xl sm:text-6xl  transition-all ease duration-200 cursor-pointer'>Human Of BC</div>
+                            <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>Human Of BC</div>
                         </Link>
                         <Link href='/our-projects' >
-                            <div onClick={() => setNavbar(!navbar)} className='css my-4 text-transparent hover:text-white font-bold text-3xl sm:text-6xl  transition-all ease duration-200 cursor-pointer'>Our Projects</div>
+                            <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>Our Projects</div>
                         </Link>
                     </div>
                 </div>

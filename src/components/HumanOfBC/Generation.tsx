@@ -29,7 +29,7 @@ const Generation = () => {
                                                 height: '100%',
                                                 width: '100%'
                                             }}
-                                            loader={() => 'https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/427888582_4465617976997343_4359727408490062132_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFaKADCepgAeCRPFQKrheS2gwse2-Yfrf6DCx7b5h-t_mWUxWlEajP7gsqDjC9CCSeOu6_5SqQqV7ISmbDGHsws&_nc_ohc=cI280ttEmq8AX8wnUwd&_nc_ht=scontent-hkg4-1.xx&oh=00_AfD-ncs-C9JzGOm9k0sTYZKBrxrDYdaEG6nNpORSRP8O2A&oe=65E797E4'}
+                                            loader={() => 'https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/427888582_4465617976997343_4359727408490062132_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFaKADCepgAeCRPFQKrheS2gwse2-Yfrf6DCx7b5h-t_mWUxWlEajP7gsqDjC9CCSeOu6_5SqQqV7ISmbDGHsws&_nc_ohc=jAc1-3tUG08AX8H9Hxr&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfD8Qo2s84O_FySEreY6ctb-FdqJZ6zEh75i7fBXs8SLjA&oe=65ED86A4'}
                                             src={'me.png'}
                                         />
                                         <div className='-bottom-full group-hover:bottom-0 transition-all ease-out duration-200
@@ -60,7 +60,7 @@ const Generation = () => {
                                                 height: '100%',
                                                 width: '100%'
                                             }}
-                                            loader={() => 'https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-6/427888582_4465617976997343_4359727408490062132_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeFaKADCepgAeCRPFQKrheS2gwse2-Yfrf6DCx7b5h-t_mWUxWlEajP7gsqDjC9CCSeOu6_5SqQqV7ISmbDGHsws&_nc_ohc=cI280ttEmq8AX8wnUwd&_nc_ht=scontent-hkg4-1.xx&oh=00_AfD-ncs-C9JzGOm9k0sTYZKBrxrDYdaEG6nNpORSRP8O2A&oe=65E797E4'}
+                                            loader={() => 'https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/427888582_4465617976997343_4359727408490062132_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeFaKADCepgAeCRPFQKrheS2gwse2-Yfrf6DCx7b5h-t_mWUxWlEajP7gsqDjC9CCSeOu6_5SqQqV7ISmbDGHsws&_nc_ohc=jAc1-3tUG08AX8H9Hxr&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfD8Qo2s84O_FySEreY6ctb-FdqJZ6zEh75i7fBXs8SLjA&oe=65ED86A4'}
                                             src={'me.png'}
                                         />
                                         <div className='-bottom-full group-hover:bottom-0 transition-all ease-out duration-200

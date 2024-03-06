@@ -5,7 +5,7 @@ const Speaker = () => {
     return (
         <div className='container mx-auto px-2'>
             <div className='text-primary text-3xl font-bold mt-10 mb-4 text-center'>Speaker </div>
-            <div className='flex -mx-1 sm:-mx-4 overflow-x-scroll'>
+            <div className='flex -mx-1 sm:-mx-4'>
                 <div className='px-1 sm:px-4 basis-1/4'>
                     <Image alt="Picture of the author"
                         className='w-full aspect-square rounded-full object-cover'

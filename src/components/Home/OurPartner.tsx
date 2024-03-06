@@ -114,7 +114,7 @@ const OurPartner = () => {
             <Title title="Our Partners" />
 
             <p className='mt-4'>With 19 years of experience, it has been our profound honour to have worked with pretigious partners. We are motivated to strengthen our competency and making impacts. If you are interested to be our partner, please contact us through: businessclub.rmit@gmail.com</p>
-            <div className='w-full mt-4 overflow-scroll'>
+            <div className='w-full mt-4 overflow-x-scroll'>
                 <div className='grid grid-flow-col auto-cols-[25%]'>
                     {
                         dataPartner.filter((v) => v.priority % 2).map((v, i) => (

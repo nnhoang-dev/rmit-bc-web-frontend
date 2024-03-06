@@ -22,8 +22,8 @@ const OutstandingLeader = () => {
                                     <Image alt="Picture of the author"
                                         width={500}
                                         height={500}
-                                        className='object-cover'
-                                        loader={() => 'https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/427888582_4465617976997343_4359727408490062132_n.jpg?stp=c0.37.240.240a_dst-jpg_p240x240&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeFaKADCepgAeCRPFQKrheS2gwse2-Yfrf6DCx7b5h-t_mWUxWlEajP7gsqDjC9CCSeOu6_5SqQqV7ISmbDGHsws&_nc_ohc=cI280ttEmq8AX8wnUwd&_nc_ht=scontent-hkg4-1.xx&oh=00_AfDe6vqereUwL9Kdqic6ZP6dYIS4UPoCSlbWkiurWULtpg&oe=65E77A22'}
+                                        className='object-cover w-full'
+                                        loader={() => 'https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/427795424_122095900238221810_4260239885545875285_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGTghx83dSUR_ZWeUePY5-6LAvg7TcUICEsC-DtNxQgIQM_2IoCAN9oM-RM8dXehQohESWbZ0Zywju1IYOUuBq3&_nc_ohc=aJmGKjPLZkcAX_9iRT9&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfAJSm1c6I_Xy6-jPVMPNOglzPVWYzu12P4_lGb_h3S6NA&oe=65ECD3ED'}
                                         src={'me.png'}
                                     />
                                     <div className='flex flex-col  bg-white h-16 w-full p-2 text-[11px]'>
@@ -37,8 +37,8 @@ const OutstandingLeader = () => {
                                     <Image alt="Picture of the author"
                                         width={500}
                                         height={500}
-                                        className='object-cover'
-                                        loader={() => 'https://scontent-hkg4-1.xx.fbcdn.net/v/t39.30808-1/427888582_4465617976997343_4359727408490062132_n.jpg?stp=c0.37.240.240a_dst-jpg_p240x240&_nc_cat=106&ccb=1-7&_nc_sid=5740b7&_nc_eui2=AeFaKADCepgAeCRPFQKrheS2gwse2-Yfrf6DCx7b5h-t_mWUxWlEajP7gsqDjC9CCSeOu6_5SqQqV7ISmbDGHsws&_nc_ohc=cI280ttEmq8AX8wnUwd&_nc_ht=scontent-hkg4-1.xx&oh=00_AfDe6vqereUwL9Kdqic6ZP6dYIS4UPoCSlbWkiurWULtpg&oe=65E77A22'}
+                                        className='object-cover w-full'
+                                        loader={() => 'https://scontent.fsgn2-9.fna.fbcdn.net/v/t39.30808-6/427795424_122095900238221810_4260239885545875285_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_eui2=AeGTghx83dSUR_ZWeUePY5-6LAvg7TcUICEsC-DtNxQgIQM_2IoCAN9oM-RM8dXehQohESWbZ0Zywju1IYOUuBq3&_nc_ohc=aJmGKjPLZkcAX_9iRT9&_nc_ht=scontent.fsgn2-9.fna&oh=00_AfAJSm1c6I_Xy6-jPVMPNOglzPVWYzu12P4_lGb_h3S6NA&oe=65ECD3ED'}
                                         src={'me.png'}
                                     />
                                     <div className='flex flex-col  bg-white h-16 w-full p-2 text-[11px]'>
