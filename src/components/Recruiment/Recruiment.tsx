@@ -41,13 +41,13 @@ const Recruiment = () => {
                         <div className='basis-2/12 font-bold text text-primary py-1 md:px-2 flex justify-center items-center' >
                             <div className='aspect-square w-4/5 min-w-20 rounded-full
                             bg-gradient-to-br from-[#FF7E21] via-[#FFEBE0] to-white flex justify-center items-center 
-                            scale-90 group-hover:scale-110 transition-all ease duration-200
+                            scale-90 sm:group-hover:scale-110 group-hover:scale-[1.02] transition-all ease duration-200
                             text-xl lg:text-3xl xl:text-5xl'>{i + 1}</div>
                         </div>
                     </div>
                 ))}
             </div>
-            <div className='flex flex-col justify-center items-center basis-4/12'>
+            <div className='flex flex-col justify-center items-center basis-4/12 cursor-pointer'>
                 <div className='hidden text-primary font-bold'>Recruiment</div>
                 <div className='bg-primary px-6 py-4 rounded-full font-bold  text-white mt-8 text-center'>Job Description</div>
             </div>

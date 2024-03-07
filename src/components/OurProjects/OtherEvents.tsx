@@ -124,13 +124,13 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
             </div>
             {numberOfPages > 1 && (
                 <div className='mt-10 cursor-pointer -mx-2 flex'>
-                    <div className='mx-2 p-4 font-bold rotate-180 transition-all duration-200 ease hover:bg-gray-100'>
+                    <div onClick={() => { if (currentPage - 1 > 0) setCurrentPage(currentPage - 1); }} className='mx-2 p-4 font-bold rotate-180 transition-all duration-200 ease hover:bg-gray-100'>
                         <svg xmlns="http://www.w3.org/2000/svg" height="24" width="15" viewBox="0 0 320 512"><path fill="#000000" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" /></svg>
                     </div>
                     {Array.from({ length: numberOfPages }, (_, i) => i + 1).map((i) => (
                         <div key={i} className={`mx-2 p-4 font-bold  transition-all duration-200 ease  ${currentPage == i ? 'bg-primary text-white hover:opacity-80' : 'text-black hover:bg-gray-100'}`} onClick={() => setCurrentPage(i)}>{i}</div>
                     ))}
-                    <div className='mx-2 p-4  font-bold transition-all duration-200 ease hover:bg-gray-100'>
+                    <div onClick={() => { if (currentPage + 1 <= numberOfPages) setCurrentPage(currentPage + 1); }} className='mx-2 p-4  font-bold transition-all duration-200 ease hover:bg-gray-100'>
                         <svg xmlns="http://www.w3.org/2000/svg" height="24" width="15" viewBox="0 0 320 512"><path fill="#000000" d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" /></svg>
                     </div>
                 </div>
