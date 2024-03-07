@@ -22,7 +22,7 @@ const Header = () => {
             </div>
 
             <div className={` w-full bg-primary transition-all ease-in duration-500 fixed z-50 top-0  ${navbar ? 'visible opacity-100' : 'invisible opacity-0'}`}>
-                <div className='w-screen bg-primary h-20 border-b-[1px] border-solid text-white'>
+                <div className='w-full bg-primary h-20 border-b-[1px] border-solid text-white'>
                     <div className='container mx-auto px-2 h-full flex justify-between items-center'>
                         <Link href='/' >
                             <span>Business Club</span>
