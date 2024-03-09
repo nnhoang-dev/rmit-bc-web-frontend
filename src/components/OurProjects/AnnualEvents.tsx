@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from '../Title';
 import { event } from '@/lib/interface';
+import Link from 'next/link';
 
 const AnnualEvents = () => {
     return (
@@ -8,7 +9,7 @@ const AnnualEvents = () => {
             <div className='text-primary text-3xl font-bold mt-6'>Annual Events</div>
 
             <div className='w-full flex flex-wrap md:-mx-2 lg:-mx-4'>
-                <div className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                <Link target='_blank' href="https://www.marketingchallengers.org/" className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
                                         mt-2 lg:mt-8 md:mt-4  hover:scale-[1.02] transition-all duration-200 ease'>
                     <div className='shadow-lg border'>
                         <div className='w-full h-52 bg-gray-400'></div>
@@ -21,8 +22,8 @@ const AnnualEvents = () => {
                             <div className='font-bold mt-2'>Marketing Challengers Competition</div>
                         </div>
                     </div>
-                </div>
-                <div className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                </Link>
+                <Link target='_blank' href="https://thelogisticom.org/" className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
                                         mt-2 lg:mt-8 md:mt-4  hover:scale-[1.02] transition-all duration-200 ease'>
                     <div className='shadow-lg border'>
                         <div className='w-full h-52 bg-gray-400'></div>
@@ -35,7 +36,7 @@ const AnnualEvents = () => {
                             <div className='font-bold mt-2'>The Logisticom competition</div>
                         </div>
                     </div>
-                </div>
+                </Link>
             </div >
         </div >
     );

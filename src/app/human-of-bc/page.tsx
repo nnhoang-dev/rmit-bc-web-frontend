@@ -6,7 +6,7 @@ import React from 'react';
 
 const HumanOfBC = () => {
     return (
-        <div className='w-full text-base'>
+        <div className=' w-full text-base'>
             <Banner />
             <Generation />
             <OutstandingLeader />

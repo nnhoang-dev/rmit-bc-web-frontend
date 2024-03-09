@@ -4,7 +4,7 @@ import React from 'react';
 
 const RecruimentPage = () => {
     return (
-        <div className="container mx-auto flex-col mt-10 p-2 text-base">
+        <div className="max-w-screen-xl mx-auto flex-col mt-10 p-2 text-base">
             <Recruiment />
             <OurDepartments />
         </div>

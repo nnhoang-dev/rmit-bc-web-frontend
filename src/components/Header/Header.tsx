@@ -21,7 +21,7 @@ const Header = () => {
                 </div>
             </div>
 
-            <div className={` w-full bg-primary transition-all ease-in duration-500 fixed z-50 top-0  ${navbar ? 'visible opacity-100' : 'invisible opacity-0'}`}>
+            <div className={` w-full bg-primary/80 transition-all ease-in duration-500 fixed z-50 top-0   ${navbar ? 'visible opacity-100' : 'invisible opacity-0'}`}>
                 <div className='w-full bg-primary h-20 border-b-[1px] border-solid text-white'>
                     <div className='container mx-auto px-2 h-full flex justify-between items-center'>
                         <Link href='/' >
@@ -40,10 +40,10 @@ const Header = () => {
                         <Link href='/about' >
                             <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>About</div>
                         </Link>
-                        <Link href='/' >
+                        <Link target='_blank' href='https://www.marketingchallengers.org/' >
                             <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>Marketing Challengers</div>
                         </Link>
-                        <Link href='/' >
+                        <Link target='_blank' href='thelogisticom.org' >
                             <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>The Logisticom</div>
                         </Link>
                         <Link href='/recruiment' >

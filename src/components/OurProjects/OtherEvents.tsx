@@ -104,9 +104,9 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
             <div className='w-full flex flex-wrap md:-mx-2 lg:-mx-4'>
                 {dataOtherEvents.map((data, i) => {
                     if (i >= 6 * (currentPage - 1) && i < 6 * currentPage) return (
-                        <div key={i} className=' md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                        <div key={i} className=' md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 relative
                     mt-2 lg:mt-8 md:mt-4  hover:scale-[1.02] transition-all duration-200 ease'>
-                            <div className='h-80 shadow-lg border '>
+                            <div className='h-[350px] shadow-lg border '>
                                 <div className='w-full h-52 bg-gray-400'></div>
                                 <div className='p-4 pb-8'>
                                     <div className='text-xs'>
@@ -115,6 +115,7 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
                                         <span>{data.audience}</span>
                                     </div>
                                     <div className='font-bold mt-2 line-clamp-2'>{data.name}</div>
+                                    <div className='text-xs font-semibold  mt-auto absolute left-8 bottom-2'>{data.event}</div>
                                 </div>
                             </div>
                         </div>
@@ -122,6 +123,8 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
                 }
                 )}
             </div>
+
+            {/* Pagination */}
             {numberOfPages > 1 && (
                 <div className='mt-10 cursor-pointer -mx-2 flex'>
                     <div onClick={() => { if (currentPage - 1 > 0) setCurrentPage(currentPage - 1); }} className='mx-2 p-4 font-bold rotate-180 transition-all duration-200 ease hover:bg-gray-100'>

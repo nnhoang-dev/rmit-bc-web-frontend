@@ -16,7 +16,7 @@ const OutstandingLeader = () => {
                 <Title title='Outstanding Leader' />
                 <div className='w-full flex flex-col-reverse lg:flex-row justify-between'>
                     <div className='basis-9/12 px-2 md:px-0'>
-                        <div className='flex -mx-4 mt-10 flex-wrap'>
+                        <div className='flex -mx-2 md:-mx-4 mt-10 flex-wrap'>
                             {outstandingLeader.map((v, i) => (
                                 <div key={i} className='basis-1/2 md:basis-1/4 group relative px-2 pb-2 md:px-4 md:pb-8'>
                                     <Image alt="Picture of the author"

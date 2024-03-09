@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const Recruiment = () => {
@@ -47,10 +48,10 @@ const Recruiment = () => {
                     </div>
                 ))}
             </div>
-            <div className='flex flex-col justify-center items-center basis-4/12 cursor-pointer'>
-                <div className='hidden text-primary font-bold'>Recruiment</div>
-                <div className='bg-primary px-6 py-4 rounded-full font-bold  text-white mt-8 text-center'>Job Description</div>
-            </div>
+            <Link target='_blank' href='https://forms.office.com/r/1nMKr7pSMQ' className='flex flex-col justify-center items-center basis-4/12 cursor-pointer'>
+                <div className=' text-primary font-bold text-2xl sm:text-5xl'>Recruiment</div>
+                <div className='bg-primary px-6 py-4 rounded-full font-bold  text-white mt-2 sm:mt-8 text-center'>Job Description</div>
+            </Link>
         </div>
     );
 };

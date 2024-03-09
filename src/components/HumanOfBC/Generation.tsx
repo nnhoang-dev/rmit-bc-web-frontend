@@ -15,7 +15,7 @@ const Generation = () => {
                 <div className='text-center text-4xl font-black'>HUMAN OF BC</div>
                 <div className='w-full text-2xl text-primary font-bold mt-10'>Generation 19</div>
                 <div className='flex flex-col items-center'>
-                    <div className='w-full flex flex-col-reverse lg:flex-row items-center justify-between '>
+                    <div className='w-full flex flex-col-reverse lg:flex-row justify-between '>
                         <div className='flex flex-wrap sm:flex-row mt-5 -mx-1 md:-mx-2 w-full md:basis-7/12'>
                             {data.map((v, i) => (
                                 <div key={i} className='mt-2 basis-1/2 sm:basis-3/12 group lg:even:mt-10 px-1 md:px-2 
@@ -43,10 +43,10 @@ const Generation = () => {
                         </div>
                         <div className='h-full basis-5/12'>
                             <div className='text-2xl font-bold text-primary mt-4'>EXECUTIVE BOARD GENERATION 19</div>
-                            <div className=' mt-2'>The executive board, acting as the leaders of BC, decides long-term and short-term objectives for the club. The executive board, consisting of 1 president, followed by 2 vice presidents, and 1 CFO, takes responsibility for monitoring the club toward the set goals. As Business Club is a student club of RMIT University, the executive board is responsible for preparing reports for each semester, annual reports, and plans to be submitted to the Student Life department.</div>
+                            <div className=' mt-2'>The executive board, acting as the leaders of BC, decides long-term and short-term objectives for the club. The executive board, consisting of 1 president, followed by 2 vice presidents, and 1 CFO, takes responsibility for monitoring the club toward the set goals.</div>
                         </div>
                     </div>
-                    <div className='w-full flex flex-col-reverse lg:flex-row-reverse items-center justify-between '>
+                    <div className='w-full flex flex-col-reverse lg:flex-row-reverse justify-between '>
                         <div className='flex flex-wrap sm:flex-row mt-5 -mx-1 md:-mx-2 w-full md:basis-7/12'>
                             {data.map((v, i) => (
                                 <div key={i} className='mt-2 basis-1/2 sm:basis-3/12 lg group lg:even:mt-10 px-1 md:px-2 
@@ -74,7 +74,7 @@ const Generation = () => {
                         </div>
                         <div className='h-full basis-5/12'>
                             <div className='text-2xl font-bold text-primary mt-4'>MANAGEMENT BOARD</div>
-                            <div className=' mt-2'>The Management Board, comprising four managers per department, is responsible for overseeing departmental operations each semester. They conduct quality control assessments, set departmental goals in line with official guidelines and the club's strategic plan, maintain communication among department members, and report to the Executive Board.</div>
+                            <div className=' mt-2'>The Management Board, comprising four managers per department, is responsible for overseeing departmental operations each semester. They conduct quality control assessments, set departmental goals in line with official guidelines and the club's strategic plan, and maintain communication among department members.</div>
                         </div>
                     </div>
                 </div>

@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className=''>
             <div className=' w-full mx-auto bg-gradient-to-t from-black to-primary text-white text-base '>
-                <div className='container mx-auto h-full  py-8'>
+                <div className='max-w-screen-xl mx-auto h-full  py-8'>
                     <div className='w-full mx-auto flex flex-col md:flex-row items-center justify-between '>
                         <div className="max-w-[400px] md:basis-6/12 px-4 flex flex-col text-center md:text-left justify-center items-center" >
                             <div className='pb-4 w-full'>Business Club</div>
@@ -28,16 +28,16 @@ const Footer = () => {
                             <div className='hidden md:block font-extrabold '>Contact Us</div>
                             <div className='py-2 mt-4 md:mt-0'>Email: businessclub.rmit@gmail.com</div>
                             <div className='flex items-center justify-around md:justify-start'>
-                                <Link href='https://www.facebook.com/RMITBusinessClub' className='inline-block h-8 w-10 pr-2'>
+                                <Link target='_blank' href='https://www.facebook.com/RMITBusinessClub' className='inline-block h-8 w-10 pr-2'>
                                     <FacebookIcon className={'scale-125 md:scale-100 md:hover:scale-110 transition-all ease duration-200'} />
                                 </Link>
-                                <Link href='/' className='inline-block h-8 w-10 pr-1'>
+                                <Link target='_blank' href='/' className='inline-block h-8 w-10 pr-1'>
                                     <InstagramIcon className={'scale-125 md:scale-100 md:hover:scale-110 transition-all ease duration-200'} />
                                 </Link>
-                                <Link href='/' className='inline-block h-10 w-12 pr-1'>
+                                <Link target='_blank' href='/' className='inline-block h-10 w-12 pr-1'>
                                     <LinkedinIcon className={'scale-125 md:scale-100 md:hover:scale-110 transition-all ease duration-200'} />
                                 </Link>
-                                <Link href='/' className='inline-block h-8 w-8'>
+                                <Link target='_blank' href='/' className='inline-block h-8 w-8'>
                                     <TiktokIcon className={'scale-125 md:scale-100 md:hover:scale-110 transition-all ease duration-200'} />
                                 </Link>
                             </div>
