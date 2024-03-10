@@ -1,11 +1,26 @@
 /** @format */
 
 export interface event {
-	name: string;
-	audience: string;
-	event: string;
+	projectName: string;
+	picture: string;
+	date: string;
 	time: string;
-	year: string;
+	status: string;
+	audience: string;
+	location: string;
+	introduction: string;
+	keyTakeaways: string[];
+	speakers: speaker[];
+	agenda: string[];
+	recap: string;
+	partner: string;
+	slug: string;
+}
+
+interface speaker {
+	name: string;
+	desc: string;
+	imgLink: string;
 }
 
 export interface partner {

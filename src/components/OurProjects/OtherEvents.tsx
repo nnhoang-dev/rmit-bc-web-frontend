@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { event } from "../../lib/interface";
+import Image from 'next/image';
+import Link from 'next/link';
 
 const OtherEvents = (props: { allEvents: event[]; }) => {
 
@@ -17,7 +19,7 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
         setCurrentPage(1);
         setSearch(input);
         const dataAfterFilter = props.allEvents.filter((data) => {
-            return data.name.toLowerCase().includes(input);
+            return data.projectName.toLowerCase().includes(input);
         });
         setDataOtherEvents(dataAfterFilter);
         setNumberOfPages(Math.floor(dataAfterFilter.length / 6) + 1);
@@ -45,8 +47,12 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
         }
         setDataOtherEvents(props.allEvents.filter((data) => {
             if (au == data.audience || au == 'All Audience') {
-                if (ev == data.event || ev == 'All Events') {
-                    if (da == data.time || da == 'All Dates') {
+                console.log(data.date.substring(data.date.length - 4, data.date.length));
+                console.log(ev);
+
+
+                if (ev == data.status || ev == 'All Events') {
+                    if (da == data.date.substring(data.date.length - 4, data.date.length) || da == 'All Dates') {
                         return true;
                     }
                 }
@@ -104,21 +110,31 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
             <div className='w-full flex flex-wrap md:-mx-2 lg:-mx-4'>
                 {dataOtherEvents.map((data, i) => {
                     if (i >= 6 * (currentPage - 1) && i < 6 * currentPage) return (
-                        <div key={i} className=' md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 relative
+                        <Link href={`/our-projects/${data.slug}`} key={i} className=' md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 relative
                     mt-2 lg:mt-8 md:mt-4  hover:scale-[1.02] transition-all duration-200 ease'>
                             <div className='h-[350px] shadow-lg border '>
-                                <div className='w-full h-52 bg-gray-400'></div>
+                                <Image alt="Picture of the author"
+                                    className='h-56'
+                                    width={500}
+                                    height={500}
+                                    style={{
+                                        objectFit: 'cover',
+                                        width: '100%',
+                                    }}
+                                    loader={() => (data.picture)}
+                                    src={'me.png'}
+                                />
                                 <div className='p-4 pb-8'>
                                     <div className='text-xs'>
                                         <span>{data.time}</span>
                                         <span className='mx-4'>|</span>
                                         <span>{data.audience}</span>
                                     </div>
-                                    <div className='font-bold mt-2 line-clamp-2'>{data.name}</div>
-                                    <div className='text-xs font-semibold  mt-auto absolute left-8 bottom-2'>{data.event}</div>
+                                    <div className='font-bold mt-2 line-clamp-2'>{data.projectName}</div>
+                                    <div className='text-xs font-semibold  mt-auto absolute left-8 bottom-2'>{data.date}</div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     );
                 }
                 )}

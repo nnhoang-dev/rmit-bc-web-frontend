@@ -11,7 +11,7 @@ export default function Home() {
       <div className='max-w-screen-xl mx-auto px-2 text-black pt-10 text-base' >
         <WhatWeDo />
         <NationalProjects />
-        <OurPartner />
+        {/* <OurPartner /> */}
       </div>
     </div>
   );

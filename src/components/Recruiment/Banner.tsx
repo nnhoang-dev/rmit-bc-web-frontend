@@ -10,7 +10,7 @@ const Banner = () => {
                 className='w-full  object-cover'
                 width={500}
                 height={500}
-                loader={() => 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/%5BBC%5D%20Website%20Cover.png?alt=media&token=fc6c6e1d-ab37-45c5-85e8-1f9519477afe'}
+                loader={() => 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/RecuitmentCoverBanner.png?alt=media&token=9aecf9e0-958b-4f79-b4a0-96b59e5309c0'}
                 src={'me.png'}
             />
             {/* <video src=""></video> */}

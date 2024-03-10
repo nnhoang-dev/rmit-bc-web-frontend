@@ -22,8 +22,8 @@ const NationalProjects = () => {
                         height={1000} />
                 </div>
                 <div className=" px-2 md:px-4 basis-9/12 mt-2 sm:mt-10 ">
-                    <p className='font-bold mb-2'>MARKETING CHALLENGERS</p>
-                    <p className="">Founded in the year 2009, Marketing Challengers, a 2-month nationwide marketing communication competition, has achieved substantial success over the course of 11 seasons. The platform serves as an arena for aspiring marketing enthusiasts among undergraduates in Vietnam, offering them the opportunity to participate in an agency-style challenge by crafting comprehensive Integrated Marketing Communication (IMC) strategies in English for prominent brands spanning diverse industry sectors.</p>
+                    <p className='font-bold mb-2 text-center sm:text-start'>MARKETING CHALLENGERS</p>
+                    <p className="text-justify">Founded in the year 2009, Marketing Challengers, a 2-month nationwide marketing communication competition, has achieved substantial success over the course of 11 seasons. The platform serves as an arena for aspiring marketing enthusiasts among undergraduates in Vietnam, offering them the opportunity to participate in an agency-style challenge by crafting comprehensive Integrated Marketing Communication (IMC) strategies in English for prominent brands spanning diverse industry sectors.</p>
                 </div>
             </div>
             <div className='flex flex-col sm:flex-row -mx-1 md:-mx-2'>
@@ -34,9 +34,9 @@ const NationalProjects = () => {
                         width={1000}
                         height={1000} />
                 </div>
-                <div className=" md:mt-8 px-2 md:px-4 basis-9/12 mt-2 sm:mt-10 ">
-                    <p className='font-bold mb-2'>THE LOGISTICOM</p>
-                    <p className="">With 7 successful seasons, the Logisticom is a nationwide Logistics and Supply Chain Management competition for undergraduates in Vietnam. Its mission is to provide structure covering the entire Logistics and Supply Chain Management with emerging topics to highlight academic knowledge and practical skills alongside assistance from industry professionals.</p>
+                <div className=" px-2 md:px-4 basis-9/12 mt-2 sm:mt-10 ">
+                    <p className='font-bold mb-2 text-center sm:text-start'>THE LOGISTICOM</p>
+                    <p className="text-justify">With 7 successful seasons, the Logisticom is a nationwide Logistics and Supply Chain Management competition for undergraduates in Vietnam. Its mission is to provide structure covering the entire Logistics and Supply Chain Management with emerging topics to highlight academic knowledge and practical skills alongside assistance from industry professionals.</p>
                 </div>
             </div>
         </div>
