@@ -31,9 +31,9 @@ export default function Page() {
                 <InforProject project={data[0]} />
                 <KeyTakeaways project={data[0]} />
                 <Speaker project={data[0]} />
-                <Agenda project={data[0]} />
-                <Recap project={data[0]} />
-                <PartnerSponsor project={data[0]} />
+                {/* <Agenda project={data[0]} /> */}
+                {/* <Recap project={data[0]} /> */}
+                {/* <PartnerSponsor project={data[0]} /> */}
             </div>
         </>
     );
