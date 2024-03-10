@@ -26,7 +26,7 @@ const OurDepartments = () => {
                             <div className='h-28 basis-full sm:basis-6/12 bg-gradient-to-r from-black from-[1%] to-primary mb-4 flex justify-center items-center
                                                         text-white cursor-pointer 
                                                         lg:w-3/5 text-xl sm:text-2xl text-center p-4
-                                                        shadow-[10px_10px_rgba(0,0,0,0.2)]
+                                                        sm:shadow-[10px_10px_rgba(0,0,0,0.2)]
                                                         hover:scale-110 transition-all duration-200 ease
                                                         '>
                                 {v.title}
@@ -36,7 +36,7 @@ const OurDepartments = () => {
                 }
             </div>
             <div id="small-modal" onClick={() => setModal(false)}
-                className={`${modal ? 'opacity-100 z-50' : 'opacity-0 -z-50'} transition-all duration-200 ease bg-black/20 flex justify-center items-center fixed top-0 left-0 right-0 bottom-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0`}>
+                className={`${modal ? 'opacity-100 visible' : 'opacity-0 invisible'} transition-all duration-200 ease bg-black/20 flex justify-center items-center fixed top-0 left-0 right-0 bottom-0 z-50 p-4 overflow-x-hidden overflow-y-auto md:inset-0`}>
                 <div onClick={(e) => e.stopPropagation()} className="relative w-full max-w-md max-h-full text-white">
                     <div className="relative bg-primary/80 rounded-lg shadow ">
                         <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t ">
