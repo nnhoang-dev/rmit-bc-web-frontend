@@ -110,7 +110,7 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
             <div className='w-full flex flex-wrap md:-mx-2 lg:-mx-2 xl:mx-4'>
                 {dataOtherEvents.map((data, i) => {
                     if (i >= 6 * (currentPage - 1) && i < 6 * currentPage) return (
-                        <Link href={`/our-projects/${data.slug}`} key={i} className=' md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 relative
+                        <Link href={`/our-projects/${data.slug}`} key={i} className=' md:px-2 lg:px-4 basis-full sm:basis-1/2 lg:basis-1/3 relative
                     mt-2 lg:mt-8 md:mt-4  hover:scale-[1.02] transition-all duration-200 ease'>
                             <div className='h-[350px] shadow-lg border '>
                                 <Image alt="Picture of the author"

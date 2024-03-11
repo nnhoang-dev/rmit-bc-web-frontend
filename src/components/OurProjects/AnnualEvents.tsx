@@ -10,7 +10,7 @@ const AnnualEvents = () => {
             <div className='text-primary text-3xl font-bold mt-6'>Annual Events</div>
 
             <div className='w-full flex flex-wrap md:-mx-2 lg:-mx-4'>
-                <Link target='_blank' href="https://www.marketingchallengers.org/" className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                <Link target='_blank' href="https://www.marketingchallengers.org/" className='md:px-2 lg:px-4 basis-full sm:basis-1/2 lg:basis-1/3
                                         mt-2 lg:mt-8 md:mt-4  hover:scale-[1.02] transition-all duration-200 ease'>
                     <div className='shadow-lg border'>
                         <Image alt="Picture of the author"
@@ -30,7 +30,7 @@ const AnnualEvents = () => {
                         </div>
                     </div>
                 </Link>
-                <Link target='_blank' href="https://thelogisticom.org/" className='md:px-2 lg:px-4 basis-full md:basis-1/2 xl:basis-1/3 
+                <Link target='_blank' href="https://thelogisticom.org/" className='md:px-2 lg:px-4 basis-full sm:basis-1/2 lg:basis-1/3 
                                         mt-2 lg:mt-8 md:mt-4  hover:scale-[1.02] transition-all duration-200 ease'>
                     <div className='shadow-lg border'>
                         <Image alt="Picture of the author"
