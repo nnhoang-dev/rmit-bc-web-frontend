@@ -62,7 +62,7 @@ const Recruiment = () => {
                                         relative overflow-hidden mr-2 sm:mr-0'>
                             <div className='font-bold '>{v.title}</div>
                             <div className=''>{v.desc}</div>
-                            <div className='w-full h-full py-4 sm:py-8 pr-8 sm:pr-16 absolute top-40 group-hover:top-0 bg-gradient-to-r from-black to-primary
+                            <div className='w-full h-full py-4 sm:py-8 pr-8 sm:pr-16 absolute top-52 sm:top-40 group-hover:top-0 bg-gradient-to-r from-black to-primary
                                             text-xs sm:text-sm lg:text-base transition-all ease-out duration-200
                                             flex flex-col justify-center '>
                                 <div dangerouslySetInnerHTML={{ __html: v.moreInfo }}></div>
@@ -110,49 +110,49 @@ const Recruiment = () => {
                     <div className='flex flex-col items-center basis-5/12 my-5'>
                         <div className='flex -mx-2'>
                             <div className="basis-1/4 flex flex-col items-center px-2 ">
-                                <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg  h-24 w-20  text-2xl md:text-4xl ">
-                                    <div className="text-primary z-10 font-bold text-5xl ">
+                                <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg h-16 w-12  sm:h-24 sm:w-20">
+                                    <div className="text-primary z-10 font-bold text-2xl sm:text-5xl ">
                                         {days}
                                     </div>
                                 </div>
-                                <p className="text-base mt-3 font-semibold text-primary md:text-xl ">
+                                <p className="text-xs mt-3 font-semibold text-primary md:text-xl ">
                                     {'Days'}
                                 </p>
                             </div>
                             <div className="basis-1/4 flex flex-col items-center px-2 ">
-                                <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg  h-24 w-20  text-2xl md:text-4xl ">
-                                    <div className="text-primary z-10 font-bold text-5xl ">
+                                <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg h-16 w-12  sm:h-24 sm:w-20">
+                                    <div className="text-primary z-10 font-bold text-2xl sm:text-5xl ">
                                         {hours}
                                     </div>
                                 </div>
-                                <p className="text-base mt-3 font-semibold text-primary md:text-xl ">
+                                <p className="text-xs mt-3 font-semibold text-primary md:text-xl ">
                                     {'Hours'}
                                 </p>
                             </div>
                             <div className="basis-1/4 flex flex-col items-center px-2 ">
-                                <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg  h-24 w-20  text-2xl md:text-4xl ">
-                                    <div className="text-primary z-10 font-bold text-5xl ">
+                                <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg h-16 w-12  sm:h-24 sm:w-20">
+                                    <div className="text-primary z-10 font-bold text-2xl sm:text-5xl ">
                                         {minutes}
                                     </div>
                                 </div>
-                                <p className="text-base mt-3 font-semibold text-primary md:text-xl ">
+                                <p className="text-xs mt-3 font-semibold text-primary md:text-xl ">
                                     {'Minutes'}
                                 </p>
                             </div>
                             <div className="basis-1/4 flex flex-col items-center px-2 ">
-                                <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg  h-24 w-20  text-2xl md:text-4xl ">
-                                    <div className="text-primary z-10 font-bold text-5xl ">
+                                <div className=" bg-gray-300 flex flex-col items-center justify-center rounded-lg h-16 w-12  sm:h-24 sm:w-20">
+                                    <div className="text-primary z-10 font-bold text-2xl sm:text-5xl ">
                                         {seconds}
                                     </div>
                                 </div>
-                                <p className="text-base mt-3 font-semibold text-primary md:text-xl ">
+                                <p className="text-xs mt-3 font-semibold text-primary md:text-xl ">
                                     {'Seconds'}
                                 </p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className=' text-primary font-bold text-5xl'>Recruitment</div>
+                <div className=' text-primary font-bold text-3xl'>Recruitment</div>
                 <Link target='_blank' href='https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize?client_id=c9a559d2-7aab-4f13-a6ed-e7e9c52aec87&redirect_uri=https%3A%2F%2Fforms.office.com%2Flanding&state=eyJ2ZXJzaW9uIjoxLCJkYXRhIjp7IklkZW50aXR5UHJvdmlkZXIiOiJBWmc4Q2lMQzg2THBYRy1VWG0wS3dLSjNfQnZRWjdDZEdNT0RpUTVkZWhwWlBpYlRaN240WlExZ09mcmpnS0RvMm5yandEaXk3dWlpM0pUMmJ1RElSUDgiLCIucmVkaXJlY3QiOiJodHRwczovL2Zvcm1zLm9mZmljZS5jb20vcGFnZXMvcmVzcG9uc2VwYWdlLmFzcHg_aWQ9Y1RZeTBiN05GMFMwMUwyeVMxRXhhMzc4MGNfMnBHZElzTjZLOS1iOXN2eFVPVmxRUWpBNU5qTlhRbGhXUmxkR05GbEJRVk0xTkU4d1dTNHUmZmJjbGlkPUl3QVIxQjc3Z0M3dDlPZC1wZlpyZ29uTmpnZW43MVV2VTBnaHU2MXY5N3Z6cDhHSVp2S182aE13VFdjZW8mc2lkPWY2OWU2YjExLTdlOGItNDhhMC1hYTAzLTA4N2NhZTAyMmI2MSIsIi54c3JmIjoiQVNwb1RXTDY0cEpESlJNMEQ1Rkdyb1NBX1VUSlphU1oxd24xSUFBQ3pwdUpZdjY4RS0wMGtob1Z4aDVTZzdHVnNLNGxialByYTc2WkFFblBINzZGNVZqMHBHc2JCZktZS2RZclVHTDJhZW52Z0NuZXRWY3RMdHhveFVmUlQtMVFUQSIsIk9wZW5JZENvbm5lY3QuQ29kZS5SZWRpcmVjdFVyaSI6IkFYTzRoVmRlaVByRHczX3pTS0p6MmR1Ym1HUlE5cldSemU1eVBnRlNzY1hGOG9OSjh2V200S2htaDZTbkZad3J3V1lwQ0pMN0pWc2xobkh2cE55R3duYjQySzVpZU85eXllb2ZTVHFxcW9HelVLWEhYRjJkTDhGT0l6MjV0WG1qb0EifX0&response_type=code%20id_token&scope=openid%20profile&response_mode=form_post&nonce=638456412911035151.MzgyZGEyZDktMzViNi00NmQ1LWI5MzYtMjMzMGI2MTkzZTdlYTQwMzNkYmYtMTY1ZC00MjY0LTg3OGYtZTk3MGYyYjY1YjRi&msafed=0&x-client-SKU=ID_NET8_0&x-client-ver=7.2.0.0' className='bg-primary px-6 py-4 rounded-full font-bold  text-white mt-2 md:mt-8 text-center hover:bg-gradient-to-br hover:from-[#FF7E21] hover:via-[#FFEBE0] hover:to-white hover:text-primary transition-all duration-200 ease'>Apply now</Link>
             </div>
         </div>

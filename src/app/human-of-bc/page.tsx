@@ -7,7 +7,7 @@ import React from 'react';
 const HumanOfBC = () => {
     return (
         <div className=' w-full text-base'>
-            <Banner />
+            {/* <Banner /> */}
             <Generation />
             <OutstandingLeader />
         </div>

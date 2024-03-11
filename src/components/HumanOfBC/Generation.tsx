@@ -7,7 +7,7 @@ const Generation = () => {
         { fullName: 'Trần Phương Vy', role: 'President', desc: 'Currently a student at RMIT University Vietnam', imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FEBMB%2FPH%C6%AF%C6%A0NG%20VY.jpg?alt=media&token=4fda8dc2-4bdf-4cc1-bc6e-105056a18cc1', linkLinkedin: 'https://www.linkedin.com/in/tranphuongvy04/' },
         { fullName: 'Huỳnh Minh Thư', role: 'External Vice President', desc: 'Currently a student at RMIT University Vietnam', imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FEBMB%2FMINH%20TH%C6%AF.jpg?alt=media&token=49c36903-74e6-4632-ac0c-a3cdf923fb88', linkLinkedin: 'https://www.linkedin.com/in/thu-minh-huynh/' },
         { fullName: 'Phạm Mai Hạnh Duy', role: 'Internal Vice President', desc: 'Currently a student at RMIT University Vietnam', imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FEBMB%2FH%E1%BA%A0NH%20DUY.jpg?alt=media&token=7f265344-cb06-4c4e-859f-3cd3dcfeae27', linkLinkedin: 'https://www.linkedin.com/in/ph%E1%BA%A1m-mai-h%E1%BA%A1nh-duy/' },
-        { fullName: 'Huỳnh Phan Đoan Trang', role: 'Chief Financial Officer', desc: 'Currently a student at RMIT University Vietnam', imgLink: '', linkLinkedin: 'https://www.linkedin.com/in/lyrara/' },
+        { fullName: 'Huỳnh Phan Đoan Trang', role: 'Chief Financial Officer', desc: 'Currently a student at RMIT University Vietnam', imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FEBMB%2F%C4%90OAN%20TRANG%20(Laura).jpg?alt=media&token=73a11e36-224a-4581-a8f9-9237233c1106', linkLinkedin: 'https://www.linkedin.com/in/lyrara/' },
 
     ];
     const dataManagementBroad: { fullName: string, role: string, desc: string, imgLink: string, linkLinkedin: string; }[] = [
@@ -26,18 +26,16 @@ const Generation = () => {
                     <div className='w-full flex flex-col-reverse lg:flex-row justify-between '>
                         <div className='flex flex-wrap sm:flex-row mt-5 -mx-1 md:-mx-2 w-full md:basis-7/12'>
                             {dataExecutiveBoard.map((v, i) => (
-                                <div key={i} className='mt-2 basis-1/2 sm:basis-3/12 group lg:even:mt-10 px-1 md:px-2 
-                                                        md:mt-0'>
+                                <Link href={v.linkLinkedin} target='_blank' key={i} className='mt-2 basis-1/2 sm:basis-3/12 group lg:even:mt-10 px-1 md:px-2 
+                                                        md:mt-0 hover:scale-105 transition-all duration-200 ease'>
                                     <div className='overflow-hidden relative  bg-gray-400 '>
-                                        <Link href={v.linkLinkedin} className='' >
-                                            <Image alt="Picture of the author"
-                                                className='lg:min-h-[300px] md:min-h-[374px] w-full object-cover'
-                                                width={500}
-                                                height={500}
-                                                loader={() => v.imgLink}
-                                                src={'me.png'}
-                                            />
-                                        </Link>
+                                        <Image alt="Picture of the author"
+                                            className='lg:min-h-[300px] md:min-h-[374px] w-full object-cover'
+                                            width={500}
+                                            height={500}
+                                            loader={() => v.imgLink}
+                                            src={'me.png'}
+                                        />
                                         <div className='-bottom-full group-hover:bottom-0 transition-all ease-out duration-200
                         flex flex-col justify-end absolute h-2/5 w-full bg-gradient-to-t to-white/0 from-[#9d140c]/80 p-2 text-[11px] text-white'>
                                             <div className='font-bold text-xs'>{v.fullName}</div>
@@ -45,7 +43,7 @@ const Generation = () => {
                                             <div className='leading-4' >{v.desc}</div>
                                         </div>
                                     </div>
-                                </div>
+                                </Link>
                             ))}
                         </div>
                         <div className='h-full basis-5/12'>
@@ -57,7 +55,7 @@ const Generation = () => {
                         <div className='flex flex-wrap sm:flex-row mt-5 -mx-1 md:-mx-2 w-full md:basis-7/12'>
                             {dataManagementBroad.map((v, i) => (
                                 <div key={i} className='mt-2 basis-1/2 sm:basis-3/12 lg group lg:even:mt-10 px-1 md:px-2 
-                                md:mt-0'>
+                                md:mt-0 hover:scale-105 transition-all duration-200 ease'>
                                     <Link href={v.linkLinkedin} className='' >
                                         <div className='overflow-hidden relative  bg-gray-400 '>
                                             <Image alt="Picture of the author"
