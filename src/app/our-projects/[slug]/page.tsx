@@ -1,6 +1,5 @@
 'use client';
 import Agenda from "@/components/DetailProject/Agenda";
-import InforProject from "@/components/DetailProject/InforProject";
 import KeyTakeaways from "@/components/DetailProject/KeyTakeaways";
 import PartnerSponsor from "@/components/DetailProject/PartnerSponsor";
 import Recap from "@/components/DetailProject/Recap";
@@ -9,12 +8,13 @@ import { usePathname } from "next/navigation";
 import Image from "next/image";
 import { allEvents } from "@/lib/data";
 import { event } from "@/lib/interface";
+import IntroProject from "@/components/DetailProject/InforProject";
 
 export default function Page() {
     const pathname = usePathname();
     const href = pathname.split('/')[2];
 
-    const data: event[] = allEvents.filter((v) => v.slug == href);
+    const data: event = allEvents.filter((v) => v.slug == href)[0];
     return (
         <>
             <Image alt="Picture of the author"
@@ -24,16 +24,16 @@ export default function Page() {
                     objectFit: 'cover',
                     width: '100%',
                 }}
-                loader={() => data[0].picture}
+                loader={() => data.picture}
                 src={'me.png'}
             />
             <div className="max-w-screen-xl mx-auto flex flex-col">
-                <InforProject project={data[0]} />
-                <KeyTakeaways project={data[0]} />
-                <Speaker project={data[0]} />
-                {/* <Agenda project={data[0]} /> */}
-                {/* <Recap project={data[0]} /> */}
-                {/* <PartnerSponsor project={data[0]} /> */}
+                {data.introduction && <IntroProject project={data} />}
+                {data.keyTakeaways.length != 0 && <KeyTakeaways project={data} />}
+                {data.speakers.length != 0 && <Speaker project={data} />}
+                {data.agenda.length != 0 && <Agenda project={data} />}
+                {data.recap && <Recap project={data} />}
+                {/* <PartnerSponsor project={data} /> */}
             </div>
         </>
     );

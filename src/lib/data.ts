@@ -35,35 +35,20 @@ export const allEvents: event[] = [
 				name: 'Ms. Do Ngoc Kim Ngan',
 				desc: 'HR Manager, CoE - Talent Acquisition, Suntory PepsiCo Vietnam Beverage',
 				imgLink:
-					'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBCareer%202.0%2FGS%2FMr.%20Ngo%20Nhat%20Huy.jpg?alt=media&token=bbc54e4c-7813-4652-8194-9db7138aea57',
+					'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBCareer%202.0%2FGS%2FMs.%20%C4%90%E1%BB%97%20Ng%E1%BB%8Dc%20Kim%20Ng%C3%A2n.JPG?alt=media&token=a0f1ff5a-0faa-414c-bfb9-a47916b2fdfa',
 			},
 			{
-				name: 'Ms. Do Ngoc Kim Ngan',
-				desc: 'HR Manager, CoE - Talent Acquisition, Suntory PepsiCo Vietnam Beverage',
+				name: 'Ms. Le Thi Que Anh',
+				desc: 'Channel Development Manager, Traditional Trade, Suntory PepsiCo Vietnam Beverage',
 				imgLink:
-					'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBCareer%202.0%2FGS%2FMr.%20Ngo%20Nhat%20Huy.jpg?alt=media&token=bbc54e4c-7813-4652-8194-9db7138aea57',
+					'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBCareer%202.0%2FGS%2FMs.%20Le%20Thi%20Que%20Anh.JPG?alt=media&token=fd88069e-8821-4f3e-8e83-5f06e758ade3',
 			},
 			{
-				name: 'Ms. Do Ngoc Kim Ngan',
-				desc: 'HR Manager, CoE - Talent Acquisition, Suntory PepsiCo Vietnam Beverage',
+				name: 'Ms. Tran Hong Anh',
+				desc: 'E-Commerce Manager, iB2C, Suntory PepsiCo Vietnam Beverage',
 				imgLink:
-					'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBCareer%202.0%2FGS%2FMr.%20Ngo%20Nhat%20Huy.jpg?alt=media&token=bbc54e4c-7813-4652-8194-9db7138aea57',
+					'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBCareer%202.0%2FGS%2FMs.%20Tran%20Hong%20Anh.jpg?alt=media&token=6a0325f7-e014-43a6-a3c5-74a6031cd2bf',
 			},
-			// {
-			// 	name: 'Mr. Le Tuan Anh',
-			// 	desc: 'International Mentoring & Career Consultant, RMIT University Vietnam',
-			// 	imgLink:
-			// 		'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBCareer%202.0%2FGS%2FMr.%20Le%20Tuan%20Anh.jpg?alt=media&token=54672ad4-463e-4988-90f2-fab813075829',
-			// },
-			// {
-			// 	name: 'Mr. Le Tuan Anh',
-			// 	desc: 'International Mentoring & Career Consultant, RMIT University Vietnam',
-			// 	imgLink:
-			// 		'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBCareer%202.0%2FGS%2FMr.%20Le%20Tuan%20Anh.jpg?alt=media&token=54672ad4-463e-4988-90f2-fab813075829',
-			// },
-			// ,
-			// 'Ms. Le Thi Que Anh (Channel Development Manager, Traditional Trade, Suntory PepsiCo Vietnam Beverage)',
-			// 'Ms. Tran Hong Anh (E-Commerce Manager, iB2C, Suntory PepsiCo Vietnam Beverage)',
 		],
 		agenda: [
 			'Sharing "What is Management Trainee?"',
@@ -76,8 +61,46 @@ export const allEvents: event[] = [
 			'Q&A With Judges',
 			'Closing & Appreciation',
 		],
-		recap: '<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRMITBusinessClub%2Fvideos%2F1041167363776664%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>',
+		recap: 'https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRMITBusinessClub%2Fvideos%2F1041167363776664%2F&show_text=false&width=560&t=0',
+		typeRecap: 'video',
 		partner: '',
 		slug: 'bcareer-2.0',
+	},
+	{
+		projectName: '[RMIT Business Club x Suntory PepsiCo] Company Tour',
+		picture:
+			'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FSPVB%20Company%20Tour%2FMain%20photo.jpg?alt=media&token=4868212a-467d-41ae-b2d4-2c71f3bd2b47',
+		date: '18 Dec 2023',
+		time: '',
+		status: 'Past',
+		audience: 'Exclusive for BCers',
+		location: 'Sheraton Tower',
+		introduction:
+			'This constitutes a gracious chance to give club members a holistic view of Suntory PepsiCo’s working space, culture, and humans. As honored in “Vietnam 100 Best Places to Work 2023”, BCers have been impressed with its top-notch infrastructure, and dynamic and open working environment with the motto of “Unleash your spirit” pursuing DE&I - Diversity, Equity, Inclusion. Besides, BCers are honored to hear the sharings from senior managers about “Effectiveness in Project Promotion” via practical field knowledge and case studies of SPVB’s promotion campaigns.',
+		keyTakeaways: [
+			'Visit the actual working environment at Suntory PepsiCo Vietnam Beverage',
+			'Learn about successful media campaigns and the strategies behind them',
+			'Learn to analyze insights and customer needs to develop strategies and products',
+			'Learn how to effectively reach the target audience and how to convert them into participants"',
+		],
+		speakers: [
+			{
+				name: 'Ms. Vivian Pham',
+				desc: 'Senior Manager, Integrated Marketing Communications, Suntory PepsiCo Vietnam Beverage',
+				imgLink:
+					'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FSPVB%20Company%20Tour%2FSP%2FMs.%20Vivian%20Pham.jpg?alt=media&token=b992e2bc-3f15-4488-845d-20fff79bd4dc',
+			},
+			{
+				name: 'Mr. Ngo Nhat Huy',
+				desc: 'HR Manager, CoE - Talent Acquisition, Suntory PepsiCo Vietnam Beverage',
+				imgLink:
+					'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FSPVB%20Company%20Tour%2FSP%2FMr.%20Ngo%20Nhat%20Huy.jpg?alt=media&token=d50fc29d-ea51-4406-9b06-1d251243b7c4',
+			},
+		],
+		agenda: [],
+		recap: 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRMITBusinessClub%2Fposts%2Fpfbid0kUmG5QoNHNGfrECknVr6TUrXbaisFHzoEVQudHEvJQVQUawavgKzjgqbCRKfJzALl&show_text=true&width=500',
+		typeRecap: 'post',
+		partner: '',
+		slug: 'suntory-pepsico-company-tour',
 	},
 ];

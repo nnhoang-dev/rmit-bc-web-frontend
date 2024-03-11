@@ -13,6 +13,7 @@ export interface event {
 	speakers: speaker[];
 	agenda: string[];
 	recap: string;
+	typeRecap: string;
 	partner: string;
 	slug: string;
 }

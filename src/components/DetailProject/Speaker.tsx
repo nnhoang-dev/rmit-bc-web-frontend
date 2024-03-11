@@ -6,7 +6,7 @@ const Speaker = (props: { project: event; }) => {
     return (
         <div className='container mx-auto px-2'>
             <div className='text-primary text-3xl font-bold mt-10 text-center'>Speaker </div>
-            <div className='w-full grid grid-flow-col auto-cols-[50%] sm:auto-cols-[33%] lg:auto-cols-[25%] overflow-x-scroll mt-10'>
+            <div className='w-full grid grid-flow-col auto-cols-[50%] sm:auto-cols-[33%] lg:auto-cols-[25%] overflow-x-auto mt-10 pb-10'>
                 {
                     props.project.speakers.map((v, i) => (
                         <div key={i} className='px-1 sm:px-4'>
