@@ -8,10 +8,10 @@ const CoreValues = () => {
             <div className='flex flex-col justify-center items-center pt-10 '>
                 <Title title="Core Values" />
 
-                <div className='w-full flex justify-between text-white font-bold mt-10 -mx-2'>
+                <div className='w-full flex justify-between text-white font-bold mt-10 -mx-1 sm:-mx-2 lg:-mx-4'>
                     {coreValues.map((v, i) => (
                         <div key={i}
-                            className='basis-1/5  group px-1 md:px-2  mt-5 relative overflow-hidden
+                            className='basis-1/5  group px-1 sm:px-2 lg:px-4  mt-5 relative overflow-hidden
                             h-32 sm:h-40 md:h-60  xl:h-80'>
                             <div className='w-full h-full bg-gradient-to-r from-black from-5% to-primary flex justify-center items-center'>
                                 <div className='aspect-square w-4/5 bg-gradient-to-br from-primary to-black to-90% rounded-full flex justify-center items-center font-bold text-white

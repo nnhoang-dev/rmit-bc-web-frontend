@@ -58,7 +58,7 @@ const Header = () => {
                             <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>Home</div>
                         </Link>
                         <Link href='/about' >
-                            <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>About</div>
+                            <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>About Us</div>
                         </Link>
                         <Link target='_blank' href='https://www.marketingchallengers.org/' >
                             <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>Marketing Challengers</div>
@@ -66,7 +66,7 @@ const Header = () => {
                         <Link target='_blank' href='https://www.thelogisticom.org' >
                             <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>The Logisticom</div>
                         </Link>
-                        <Link href='/recruiment' >
+                        <Link href='/recruitment' >
                             <div onClick={() => setNavbar(!navbar)} className='css my-3 text-transparent hover:text-white font-bold text-3xl sm:text-5xl  transition-all ease duration-200 cursor-pointer'>Recruitment</div>
                         </Link>
                         <Link href='/human-of-bc' >
