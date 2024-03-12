@@ -59,7 +59,7 @@ const OutstandingLeader = () => {
         },
         {
             fullName: 'Trần Nguyễn Bảo Như',
-            role: 'Content Leader',
+            role: 'MKT - Content Leader',
             desc: 'Currently a student at RMIT University Vietnam',
             imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2Fanonymous.jpg?alt=media&token=f8b623e4-3be9-4a57-a08d-56c979c76665',
             linkLinkedin: 'https://www.linkedin.com/in/trannguyenbaonhu/',
@@ -134,8 +134,8 @@ const OutstandingLeader = () => {
 
     return (
         <div className='w-full bg-[#f1f0f0]'>
-            <div className='max-w-screen-xl mx-auto w-full flex flex-col items-center text-black px-2 py-20'>
-                <Title title='Outstanding Leader' />
+            <div className='w-full flex flex-col items-center text-black px-2 py-20'>
+                <Title title='Outstanding Leaders' />
                 <div className='w-full flex flex-col lg:flex-row  justify-between -mx-2 sm:-mx-4 '>
                     <div className='lg:hidden basis-3/12 px-2 mt-10 '>
                         <Image alt="Picture of the author"
@@ -149,20 +149,21 @@ const OutstandingLeader = () => {
                     <div className='lg:basis-9/12 px-2 sm:px-2  mt-10'>
                         <div className='flex -mx-1 md:-mx-2 flex-wrap'>
                             {dataOutstandingLeader.map((v, i) => (
-                                <Link href={v.linkLinkedin} key={i} className=' basis-1/2 md:basis-1/4 group  px-1 md:px-2 mb-2 md:mb-4 hover:scale-105 transition-all duration-200 ease'>
-                                    <div className='overflow-hidden relative  bg-gray-400 '>
+                                <Link href={v.linkLinkedin} target='_blank' key={i} className='group basis-1/2 md:basis-1/4 group  px-1 md:px-2 mb-2 md:mb-4 hover:scale-105 transition-all duration-200 ease'>
+                                    <div className='overflow-hidden relative '>
                                         <Image alt="Picture of the author"
-                                            className='lg:min-h-[300px] md:min-h-[374px] w-full object-cover'
+                                            className=' w-full object-cover'
                                             width={500}
                                             height={500}
                                             loader={() => v.imgLink}
                                             src={'me.png'}
                                         />
-                                        <div className='p-2 text-xs bg-white bottom-0 transition-all ease-out duration-200
-                                            flex flex-col justify-start absolute h-[88px] w-full text-[9px] leading-3 sm:text-[12px] sm:leading-[14px] '>
+                                        <div className=' p-2  text-xs bg-white -bottom-4  group-hover:bottom-0 transition-all ease-out duration-200
+                                            flex flex-col justify-start absolute h-24 w-full text-[9px] sm:text-[12px] sm:leading-[16px] '>
                                             <div className='font-bold'>{v.fullName}</div>
                                             <div>{v.role}</div>
-                                            <div >{v.desc}</div>
+                                            <div className='invisible opacity-0 group-hover:visible group-hover:opacity-100
+                                                            transition-all ease-out duration-200'>{v.desc}</div>
                                         </div>
                                         {/* <div className='-bottom-full group-hover:bottom-0 transition-all ease-out duration-200
                         flex flex-col justify-end absolute h-2/5 w-full bg-gradient-to-t to-white/0 from-[#9d140c]/80 p-2 text-[11px] text-white'>

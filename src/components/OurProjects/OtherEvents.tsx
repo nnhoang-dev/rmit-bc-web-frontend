@@ -107,14 +107,14 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
                     </div>
                 </div >
             </div >
-            <div className='w-full flex flex-wrap md:-mx-2 lg:-mx-2 xl:mx-4'>
+            <div className='w-full flex flex-wrap -mx-2 lg:-mx-2 xl:mx-4'>
                 {dataOtherEvents.map((data, i) => {
                     if (i >= 6 * (currentPage - 1) && i < 6 * currentPage) return (
-                        <Link href={`/our-projects/${data.slug}`} key={i} className=' md:px-2 lg:px-4 basis-full sm:basis-1/2 lg:basis-1/3 relative
+                        <Link href={`/our-projects/${data.slug}`} key={i} className='px-2 lg:px-4 basis-full sm:basis-1/2 lg:basis-1/3 relative
                     mt-2 lg:mt-8 md:mt-4  hover:scale-[1.02] transition-all duration-200 ease'>
-                            <div className='h-[350px] shadow-lg border '>
+                            <div className=' shadow-lg border '>
                                 <Image alt="Picture of the author"
-                                    className='h-56'
+                                    className='h-40'
                                     width={500}
                                     height={500}
                                     style={{
@@ -124,14 +124,14 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
                                     loader={() => (data.picture)}
                                     src={'me.png'}
                                 />
-                                <div className='p-4 pb-8'>
+                                <div className='p-4 pb-8 min-h-32'>
                                     <div className='text-xs'>
                                         <span>{data.time}</span>
-                                        <span className={`mx-2 xl:mx-4 ${!data.time || !data.audience ? 'hidden' : ''}`}>|</span>
+                                        <span className={`mx-1 xl:mx-2 ${!data.time || !data.audience ? 'hidden' : ''}`}>|</span>
                                         <span>{data.audience}</span>
                                     </div>
                                     <div className='font-bold mt-2 line-clamp-2'>{data.projectName}</div>
-                                    <div className='text-xs font-semibold  mt-auto absolute left-8 bottom-2'>{data.date}</div>
+                                    <div className='text-xs font-semibold absolute sm:left-6 lg:left-8 bottom-2'>{data.date}</div>
                                 </div>
                             </div>
                         </Link>

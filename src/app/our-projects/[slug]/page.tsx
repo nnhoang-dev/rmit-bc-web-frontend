@@ -27,13 +27,13 @@ export default function Page() {
                 loader={() => data.picture}
                 src={'me.png'}
             />
-            <div className="max-w-screen-xl mx-auto flex flex-col">
+            <div className="max-w-screen-lg mx-auto flex flex-col">
                 {data.introduction && <IntroProject project={data} />}
                 {data.keyTakeaways.length != 0 && <KeyTakeaways project={data} />}
                 {data.speakers.length != 0 && <Speaker project={data} />}
                 {data.agenda.length != 0 && <Agenda project={data} />}
                 {data.recap && <Recap project={data} />}
-                {/* <PartnerSponsor project={data} /> */}
+                {data.partner && <PartnerSponsor project={data} />}
             </div>
         </>
     );

@@ -35,7 +35,8 @@ export const allEvents: event[] = [
 		agenda: [],
 		recap: 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRMITBusinessClub%2Fposts%2Fpfbid0kUmG5QoNHNGfrECknVr6TUrXbaisFHzoEVQudHEvJQVQUawavgKzjgqbCRKfJzALl&show_text=true&width=500',
 		typeRecap: 'post',
-		partner: '',
+		partner:
+			'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FSPVB%20Company%20Tour%2F(P)%20SPVB%20company%20tour.png?alt=media&token=0fc94918-b895-41da-86a8-00db34e964a0',
 		slug: 'suntory-pepsico-company-tour',
 	},
 	{
@@ -100,7 +101,8 @@ export const allEvents: event[] = [
 		],
 		recap: 'https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRMITBusinessClub%2Fvideos%2F1041167363776664%2F&show_text=false&width=560&t=0',
 		typeRecap: 'video',
-		partner: '',
+		partner:
+			'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBCareer%202.0%2F(P)%20BCAREER2.0.png?alt=media&token=f8a62f00-348b-4cab-9e15-9517fbac02b7',
 		slug: 'bcareer-2.0',
 	},
 	{
@@ -142,7 +144,8 @@ export const allEvents: event[] = [
 		],
 		recap: 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fweb.facebook.com%2FRMITBusinessClub%2Fposts%2Fpfbid02sSBfFcFaQimfSujEHWm6KSkX4VKmWWK5mKjEqWt9vaKqMQoYH8AvFzVG1h9Vrysol&show_text=true&width=500',
 		typeRecap: 'post',
-		partner: '',
+		partner:
+			'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBCareer%2F(P)%20BCAREER.png?alt=media&token=3ae5503e-9d31-4fa5-ae98-a41d82b62c4f',
 		slug: 'bcareer',
 	},
 	{
@@ -180,7 +183,8 @@ export const allEvents: event[] = [
 		],
 		recap: 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRMITBusinessClub%2Fposts%2Fpfbid0VgNXoCwhTe4UHQhY7BTaP6cBQ6kgy1PmA4crnbGAwq6oyfwi3Q2fvUFVKhBrJU46l&show_text=true&width=500',
 		typeRecap: 'post',
-		partner: '',
+		partner:
+			'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FMarketing%20Discussion%2F(P)%20MARKETING%20DISCUSSION.png?alt=media&token=28101a2f-36b8-4fbd-8f66-231c4f1c3c88',
 		slug: 'marketing-discussion-social-listening',
 	},
 	{
@@ -216,7 +220,8 @@ export const allEvents: event[] = [
 		],
 		recap: 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRMITBusinessClub%2Fposts%2Fpfbid02dy7cJbfePWuQWeQYs2A2NrFGTz4zd5SFkPWyepwizYfNVYUE3GPsWd8HX8YdshBsl&show_text=true&width=500',
 		typeRecap: 'post',
-		partner: '',
+		partner:
+			'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FNuture%20the%20leader%20within%2F(P)%20NUTURE%20THE%20LEADER%20WITHIN.png?alt=media&token=50ee1843-33c1-40a5-b24a-829f5450fc10',
 		slug: 'nuture-the-leader-within',
 	},
 	{
@@ -290,7 +295,8 @@ export const allEvents: event[] = [
 		],
 		recap: 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRMITBusinessClub%2Fposts%2Fpfbid0327RcejiABDrpLBZDwvoJvYb8FDK5uWWKDgYtx4rGHr75oicZjvG7v2L3tCgmFuStl&show_text=true&width=500',
 		typeRecap: 'post',
-		partner: '',
+		partner:
+			'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FBusiness%20Initiators%2F(P)%20BUSINESS%20INITIATORS.png?alt=media&token=db1f16c8-bd2b-4aa9-a601-08957596654c',
 		slug: 'business-initiators',
 	},
 	{
@@ -305,10 +311,10 @@ export const allEvents: event[] = [
 		introduction: `Recently, 𝗕𝘂𝘀𝗶𝗻𝗲𝘀𝘀 𝗖𝗹𝘂𝗯 and 𝗙𝗶𝗻𝗮𝗻𝗰𝗲 𝗖𝗹𝘂𝗯 had the privilege of visiting and talking with staff from KPMG, one of the ""Big 4"" top auditing firms. Here, in addition to learning about KPMG-related topics, we were exposed to many industry-related information and lessons.
 		This trip was beneficial and symbolizes the beginning of the two clubs' partnership and progress. BC hopes that we and our friend FC will add greater value to both members and the RMIT students.`,
 		keyTakeaways: [
-			'- Visit the actual working environment of KPMG employees.',
-			'- Learn about current job opportunities at KPMG.',
-			'- Share about career development, and personal development from KPMG leaders through panel discussion.session',
-			'- Participate in panel discussion session with guest speakers from Tax, Audit, and Consulting industry.',
+			'Visit the actual working environment of KPMG employees.',
+			'Learn about current job opportunities at KPMG.',
+			'Share about career development, and personal development from KPMG leaders through panel discussion.session',
+			'Participate in panel discussion session with guest speakers from Tax, Audit, and Consulting industry.',
 		],
 		speakers: [
 			// {
@@ -330,7 +336,8 @@ export const allEvents: event[] = [
 		],
 		recap: 'https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FRMITBusinessClub%2Fposts%2Fpfbid0oDtAphSzv8SdXEr7YUVkpCY2cbdE2K1fhEe7yL6Yhs3q2cCjPwhYLMigDHmWFdB7l&show_text=true&width=500',
 		typeRecap: 'post',
-		partner: '',
+		partner:
+			'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FKPMG%20Tour%2F(P)%20KPMG%20COMPANY%20TOUR.png?alt=media&token=b4cb654c-065b-43b5-b695-44caf500ce89',
 		slug: 'kpmg-company-tour',
 	},
 	{
@@ -345,9 +352,9 @@ export const allEvents: event[] = [
 		introduction: `Navigating a career path has never been an easy task. We always wonder: ""Is the current choice suitable for the future job?"" and “Is it better to learn deeply or broadly from the beginning?” 
 		The 𝗠𝗶𝘀𝘀𝗶𝗻𝗴 𝗢𝘂𝘁 𝗼𝗿 𝗙𝗶𝗴𝘂𝗿𝗶𝗻𝗴 𝗢𝘂𝘁 panel discussion will help you identify and evaluate your future direction. As a result, the event will guide you to make the right decision to limit pressure and anxiety, as well as give you more motivation to pursue your plans.`,
 		keyTakeaways: [
-			'-Determine whether you are following the path of Generalist or Specialist thorugh a self-evaluation activity.',
-			'-Receive insights through interesting and helpful stories of special panelists.',
-			"- The earliest 50 participant who stay till the end of the panel discussion will receive our beautiful event's lanyards.",
+			'Determine whether you are following the path of Generalist or Specialist thorugh a self-evaluation activity.',
+			'Receive insights through interesting and helpful stories of special panelists.',
+			"The earliest 50 participant who stay till the end of the panel discussion will receive our beautiful event's lanyards.",
 		],
 		speakers: [
 			{
@@ -381,7 +388,8 @@ export const allEvents: event[] = [
 		],
 		recap: 'https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRMITBusinessClub%2Fvideos%2F1214462579337049%2F&show_text=false&width=560&t=0',
 		typeRecap: 'video',
-		partner: '',
+		partner:
+			'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FMissing%20our%20or%20figuring%20out%2F(P)%20MISSING%20OUT%20OR%20FIGURING%20OUT.png?alt=media&token=7f2beb34-1a3c-4985-a1b8-49b6586fcd28',
 		slug: 'missing-out-or-figuring-out',
 	},
 	{
@@ -416,7 +424,8 @@ export const allEvents: event[] = [
 		],
 		recap: '',
 		typeRecap: 'video',
-		partner: '',
+		partner:
+			'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/OtherEvent%2FMindful%20leadership%2F(P)%20MINDFUL%20LEADERSHIP.png?alt=media&token=5434e6cf-f1d6-465f-ba72-ed04ab5300a1',
 		slug: 'mindful-leadership',
 	},
 ];

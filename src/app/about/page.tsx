@@ -10,7 +10,7 @@ const AboutPage = () => {
 
 
     return (
-        <div className=" text-[10px] sm:text-xs md:text-base lg:text-lg">
+        <div className=" text-base sm:text-xs md:text-sm lg:text-xl">
             <AboutUs />
             <VisionAndMision />
             <CoreValues />

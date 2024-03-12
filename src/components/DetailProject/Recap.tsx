@@ -4,21 +4,23 @@ import { event } from '@/lib/interface';
 const Recap = (props: { project: event; }) => {
     return (
         <div className='container mx-auto px-2 flex flex-col justify-center items-center py-10'>
-            <div className='text-primary text-3xl font-bold mb-4 text-center'>Recap</div>
-            <div className='relative w-full mt-10 '>
-                {props.project.typeRecap == 'video' ? (
+            <div className='text-primary text-3xl font-bold text-center'>Recap</div>
+            {props.project.typeRecap == 'video' ? (
+                <div className='relative w-full mt-4 '>
                     <div className='overflow-hidden pt-[60%] '>
-                        <iframe className='absolute mx-auto h-full top-0 right-0 left-0 bottom-0 border-none' src={props.project.recap} width="100%" scrolling="yes" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        <iframe className='absolute mx-auto w-full h-full top-0 right-0 left-0 bottom-0 border-none' src={props.project.recap} scrolling="yes" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     </div>
-                ) : (
-                    <div className='overflow-hidden pt-[60%] '>
-                        <iframe className='absolute mx-auto h-full top-0 right-0 left-0 bottom-0 border-none' src={props.project.recap} width="500" scrolling="yes" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            ) : (
+                <div className='relative mt-4 w-full sm:w-[500px] '>
+                    <div className='overflow-hidden pt-[170%] sm:pt-[130%]  '>
+                        <iframe className='absolute mx-auto h-full w-full top-0 right-0 left-0 bottom-0 border-none' src={props.project.recap} scrolling="yes" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
                     </div>
-                )}
-
-            </div>
+                </div>
+            )}
 
         </div>
+
     );
 };
 

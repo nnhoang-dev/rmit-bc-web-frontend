@@ -6,8 +6,7 @@ import React from 'react';
 
 const HumanOfBC = () => {
     return (
-        <div className=' w-full text-base'>
-            {/* <Banner /> */}
+        <div className=' max-w-screen-lg mx-auto text-base'>
             <Generation />
             <OutstandingLeader />
         </div>

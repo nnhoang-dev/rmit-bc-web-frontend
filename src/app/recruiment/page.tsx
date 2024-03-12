@@ -10,7 +10,7 @@ const RecruimentPage = () => {
     return (
         <div>
             <Banner />
-            <div className="max-w-screen-xl mx-auto flex-col mt-10 p-2 text-base">
+            <div className="max-w-screen-lg mx-auto flex-col mt-10 p-2 text-base">
                 <Recruiment />
                 <OurDepartments />
             </div>

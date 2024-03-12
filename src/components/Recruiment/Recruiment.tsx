@@ -6,7 +6,7 @@ const Recruiment = () => {
     const recruiment = [
         {
             title: 'CV Submission',
-            desc: 'Prepare CV according to our fortmat and submit within deadline',
+            desc: 'Prepare CV according to our guidelines and submit it within the deadline',
             moreInfo: `<div>Deadline submission: 11:59 PM (21/3/2024)</div>`
 
         },
@@ -17,7 +17,7 @@ const Recruiment = () => {
         },
         {
             title: 'Probation Round',
-            desc: 'Participate in our 3-month-period Probation Round with professional manner and structure',
+            desc: 'Participate in our 1-month-period Probation Round with professional manner and structure',
             moreInfo: `<div>Our Probation Round mainly consists of 2 formats of Probation Round: an academic workshop or a fundraising booth</div>`
         },
         {
