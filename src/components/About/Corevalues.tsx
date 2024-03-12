@@ -22,7 +22,7 @@ const CoreValues = () => {
                                 </div>
                                 <div className='text-[6px] sm:text-xs md:text-base lg:text-lg
                                 top-full opacity-0 group-hover:top-0 group-hover:opacity-100 h-full w-full backdrop-blur-sm absolute flex justify-center items-center  transition-all ease-out duration-200 bg-white/10'>
-                                    <span className='text-center leading-3 px-4'>{v}</span>
+                                    <span className='text-center leading-[8px] sm:leading-none px-4'>{v}</span>
                                 </div>
                             </div>
                         </div>
