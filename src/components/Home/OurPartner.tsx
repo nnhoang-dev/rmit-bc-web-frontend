@@ -8,19 +8,19 @@ const OurPartner = () => {
     const allPartner: partner[] = [
         {
             alt: 'Suntory Pepsico',
-            link: 'https://firebasestorage.googleapis.com/v0/b/uploadingfile-31197.appspot.com/o/Sponsor%2Fline1%2F1.%20SPVB%20Logo.png?alt=media&token=52317b5d-d4f4-4328-82a7-bd88f0f1a567',
+            link: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/Sponsor%2Fline1%2F1.%20SPVB%20Logo.png?alt=media&token=24004d02-2b3e-4898-902a-72f0a6af3605',
         },
         {
             alt: 'Nestle',
-            link: 'https://firebasestorage.googleapis.com/v0/b/uploadingfile-31197.appspot.com/o/Sponsor%2Fline1%2F2.%20NESTLE_.png?alt=media&token=6290d88d-c7fe-4f6a-883b-7d5b36e7252b',
+            link: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/Sponsor%2Fline1%2F2.NESTLE.png?alt=media&token=c0c2649d-fdc1-414e-bbbf-7f188bb0485d',
         },
         {
             alt: 'Cocacola',
-            link: 'https://firebasestorage.googleapis.com/v0/b/uploadingfile-31197.appspot.com/o/Sponsor%2Fline1%2F3.%20CocaCola.png?alt=media&token=03246281-ec3b-4d5f-90f7-a69c4d3f6e1b',
+            link: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/Sponsor%2Fline1%2F3.%20CocaCola.png?alt=media&token=28411612-4fd7-45c9-8560-cdb5e7371980',
         },
         {
             alt: 'Wisdom',
-            link: 'https://firebasestorage.googleapis.com/v0/b/uploadingfile-31197.appspot.com/o/Sponsor%2Fline1%2F4.%20Wisdom.png?alt=media&token=10d3d73a-1850-4b17-8e8a-019cb3877c20',
+            link: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/Sponsor%2Fline1%2F4.%20_Wisdom.png?alt=media&token=d086252c-7415-4f4a-961f-ac7e93849516',
         },
         {
             alt: 'P&G',
@@ -36,7 +36,7 @@ const OurPartner = () => {
         },
         {
             alt: 'Buzzmetrics',
-            link: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/Sponsor%2Fline1%2F7.%20Zee.png?alt=media&token=43d5d386-9f19-4d8d-96f7-edc55f953c02',
+            link: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/Sponsor%2Fline1%2F8.%20RGB%20Logo-01%20(1).png?alt=media&token=f1f1d719-8f86-4074-8384-3119507c31c4',
         },
         {
             alt: 'Giao Hang Nhanh',
@@ -56,7 +56,7 @@ const OurPartner = () => {
         },
         {
             alt: 'Fonos',
-            link: 'https://firebasestorage.googleapis.com/v0/b/uploadingfile-31197.appspot.com/o/Sponsor%2Fline2%2F5.%20Fonos.jpg?alt=media&token=462d3c49-5295-430a-8f99-daf0fb57adb0',
+            link: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/Sponsor%2Fline2%2F5.%20Fonos.png?alt=media&token=d3af74e8-c0de-4fcb-9329-1499a9deaf6f',
         },
         {
             alt: 'VILAS',
@@ -64,7 +64,7 @@ const OurPartner = () => {
         },
         {
             alt: 'Decathlon',
-            link: 'https://firebasestorage.googleapis.com/v0/b/uploadingfile-31197.appspot.com/o/Sponsor%2Fline2%2F7.%20Decathlon.jpg?alt=media&token=762ca4aa-3dd6-4844-a015-8f130c409dc8',
+            link: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/Sponsor%2Fline2%2F7.%20Decathlon.jpg?alt=media&token=cd71c131-51d0-4211-bfde-e7411d9c79ac',
         },
         {
             alt: 'Vietjet',
@@ -72,7 +72,7 @@ const OurPartner = () => {
         },
         {
             alt: 'Mercedes-Benz',
-            link: 'https://firebasestorage.googleapis.com/v0/b/uploadingfile-31197.appspot.com/o/Sponsor%2Fline3%2F1.%20Mercedes-Benz-Logo.png?alt=media&token=b9fe91a0-8ae4-4e6f-b7e5-bc4eec0faeac',
+            link: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/Sponsor%2Fline3%2F1.%20Mercedes-Benz-Logo.png?alt=media&token=aadfc7fa-2000-45be-b55a-288687a2fd05',
         },
         {
             alt: 'Toyota',
@@ -179,7 +179,7 @@ const OurPartner = () => {
                         <svg xmlns="http://www.w3.org/2000/svg" height="24" width="15" viewBox="0 0 320 512"><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" /></svg>
                     </div>
                 </div>
-                <div className=' basis-10/12 grow grid grid-flow-col auto-cols-[25%] grid-rows-2'>
+                <div className=' basis-10/12 grow grid grid-cols-4 auto-cols-[25%] grid-rows-2'>
                     {renderPartner()}
                 </div>
                 <div className='cursor-pointer  flex justify-center items-center'
