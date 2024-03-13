@@ -178,7 +178,8 @@ const OutstandingLeader = () => {
                                         />
                                         <div className=' p-2  text-xs bg-white -bottom-4  group-hover:bottom-0 transition-all ease-out duration-200
                                             flex flex-col justify-start absolute h-24 w-full text-[9px] sm:text-[12px] sm:leading-[16px] '>
-                                            <div className='font-bold'>{v.fullName}</div>
+                                            <div className='font-bold hover:text-primary group-hover:underline transition-all duration-200 ease'>{v.fullName}</div>
+                                            {/* <div className='font-bold'>{v.fullName}</div> */}
                                             <div>{v.role}</div>
                                             <div className='invisible opacity-0 group-hover:visible group-hover:opacity-100
                                                             transition-all ease-out duration-200'>{v.desc}</div>

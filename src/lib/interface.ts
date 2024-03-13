@@ -27,5 +27,4 @@ interface speaker {
 export interface partner {
 	alt: string;
 	link: string;
-	priority: number;
 }

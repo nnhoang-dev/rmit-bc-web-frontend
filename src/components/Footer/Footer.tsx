@@ -14,8 +14,8 @@ const Footer = () => {
                         <div className="max-w-[400px] md:basis-6/12 px-4 flex flex-col text-center md:text-left justify-center items-center md:justify-normal md:items-start" >
                             <Link href='/' className='w-40 py-2'>
                                 <Image alt="Picture of the author"
-                                    width={500}
-                                    height={500}
+                                    width={3478}
+                                    height={1018}
                                     style={{
                                         objectFit: 'contain',
                                         height: '100%',
@@ -23,7 +23,6 @@ const Footer = () => {
                                     loader={() => 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/LogoBCMauTrang.png?alt=media&token=16ea3b56-88b5-4257-b8ec-38860ea96237'}
                                     src={'logo.png'}
                                 />
-                                {/* <span>Business Club</span> */}
                             </Link>
                             <div className="info">
                                 <div className='font-extrabold  mb-1'>RMIT Vietnam Business Club - SGS</div>

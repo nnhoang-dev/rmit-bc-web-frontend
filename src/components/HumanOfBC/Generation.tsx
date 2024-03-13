@@ -38,7 +38,7 @@ const Generation = () => {
                                         />
                                         <div className=' -bottom-8 sm:-bottom-4 lg:-bottom-8 group-hover:bottom-0 transition-all ease-out duration-200
                         flex flex-col justify-end absolute h-2/5 w-full bg-gradient-to-t to-white/0 from-[#9d140c]/80 p-2 text-[10px] sm:text-[8px] leading-3 text-white'>
-                                            <div className='font-bold'>{v.fullName}</div>
+                                            <div className='font-bold hover:text-primary group-hover:underline transition-all duration-200 ease'>{v.fullName}</div>
                                             <div className='leading-3' >{v.role}</div>
                                             <div className='mt-1 leading-3 invisible opacity-0 group-hover:visible group-hover:opacity-100  transition-all duration-200 ease' >{v.desc}</div>
                                         </div>
@@ -67,7 +67,7 @@ const Generation = () => {
                                             />
                                             <div className='-bottom-8 sm:-bottom-4 lg:-bottom-8 group-hover:bottom-0 transition-all ease-out duration-200
                         flex flex-col justify-end absolute h-2/5 w-full bg-gradient-to-t to-white/0 from-[#9d140c]/80 p-2 text-[10px] sm:text-[8px] leading-3 text-white'>
-                                                <div className='font-bold '>{v.fullName}</div>
+                                                <div className='font-bold hover:text-primary group-hover:underline transition-all duration-200 ease'>{v.fullName}</div>
                                                 <div className='leading-3' >{v.role}</div>
                                                 <div className='mt-1 leading-3 invisible opacity-0 group-hover:visible group-hover:opacity-100 transition-all duration-200 ease' >{v.desc}</div>
                                             </div>

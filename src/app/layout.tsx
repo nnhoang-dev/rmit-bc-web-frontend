@@ -6,6 +6,13 @@ import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://rmitbusinessclub.com'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+    },
+  },
   title: 'RMIT Vietnam Business Club - SGS',
   description: 'Founded in 2004, making us the oldest active academic club at RMIT with the vision of nurturing future business leaders.',
   icons: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/logo%20black.png?alt=media&token=c0577899-9f7e-476e-9103-3f57783a06e5',

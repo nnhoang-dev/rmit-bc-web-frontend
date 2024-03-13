@@ -14,8 +14,8 @@ const Header = () => {
                 <div className='max-w-screen-xl mx-auto px-2 h-full flex justify-between items-center'>
                     <Link href='/' className='w-40 py-2'>
                         <Image alt="Picture of the author"
-                            width={500}
-                            height={500}
+                            width={3478}
+                            height={1018}
                             style={{
                                 objectFit: 'contain',
                                 height: '100%',
