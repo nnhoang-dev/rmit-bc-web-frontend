@@ -2,8 +2,9 @@ import type { Metadata } from 'next';
 import './globals.css';
 import Header from '@/components/Header/Header';
 import Footer from '@/components/Footer/Footer';
-import { SpeedInsights } from '@vercel/speed-insights/next';
-import { Analytics } from '@vercel/analytics/react';
+// import { SpeedInsights } from '@vercel/speed-insights/next';
+// import { Analytics } from '@vercel/analytics/react';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://rmitbusinessclub.com'),
@@ -14,11 +15,11 @@ export const metadata: Metadata = {
     },
   },
   title: 'RMIT Vietnam Business Club - SGS',
-  description: 'Founded in 2004, making us the oldest active academic club at RMIT with the vision of nurturing future business leaders.',
+  description: 'RMIT Vietnam Business Club - SGS is founded in 2004, making us the oldest active academic club at RMIT with the vision of nurturing future business leaders.',
   icons: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/logo%20black.png?alt=media&token=c0577899-9f7e-476e-9103-3f57783a06e5',
   openGraph: {
     title: 'RMIT Vietnam Business Club - SGS',
-    description: 'Founded in 2004, making us the oldest active academic club at RMIT with the vision of nurturing future business leaders.',
+    description: 'RMIT Vietnam Business Club - SGS is founded in 2004, making us the oldest active academic club at RMIT with the vision of nurturing future business leaders.',
     type: 'website',
     images: [`https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/%5BBC%5D%20Website%20Cover.png?alt=media&token=fc6c6e1d-ab37-45c5-85e8-1f9519477afe`]
   }
@@ -37,12 +38,25 @@ export default function RootLayout({
         type="image/<generated>"
         sizes="<generated>"
       /> */}
+      <Script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=G-SD10X5DTB4"
+      />
+
+      <Script id="google-analytics">
+        {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-SD10X5DTB4');
+          `}
+      </Script>
       <body>
         < Header />
         {children}
         < Footer />
-        <SpeedInsights />
-        <Analytics />
+        {/* <SpeedInsights />
+        <Analytics /> */}
       </body>
     </html >
   );

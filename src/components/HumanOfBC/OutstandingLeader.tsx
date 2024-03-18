@@ -28,7 +28,7 @@ const OutstandingLeader = () => {
         },
         {
             fullName: 'Nguyễn Thị Thu Phương',
-            role: 'RnD - Academic Team Leader',
+            role: 'Mindfull Leadership Project Leader',
             desc: 'Currently a student at RMIT University Vietnam',
             imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2FThu%20Ph%C6%B0%C6%A1ng.JPG?alt=media&token=552fcce1-b656-4956-a001-fa167b136d4f',
             linkLinkedin: 'https://www.linkedin.com/in/phuongng-madeleine/',
@@ -44,7 +44,7 @@ const OutstandingLeader = () => {
             fullName: 'Phạm Thị Thanh Ngân',
             role: 'Research & Development Member',
             desc: 'Currently a student at RMIT University Vietnam',
-            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2Fanonymous.jpg?alt=media&token=f8b623e4-3be9-4a57-a08d-56c979c76665',
+            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2FPh%E1%BA%A1m%20Ng%C3%A2n.png?alt=media&token=efad4dbb-df66-441b-a5c5-99102f839158',
             linkLinkedin: 'https://www.linkedin.com/in/ngan-phammm/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app&fbclid=IwAR0qE80yEy84IlM4LfINELJkar0-S9OX1nqtIAU86eOqa3oVhYubUrJ6eNk',
         },
         {
@@ -62,6 +62,13 @@ const OutstandingLeader = () => {
             linkLinkedin: 'https://www.linkedin.com/in/viviennedhv-a83859267/',
         },
         {
+            fullName: 'Nguyễn Anh Thư ',
+            role: 'RnD - Action Team Leader',
+            desc: 'Currently a student at RMIT University Vietnam',
+            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2FAnh%20Th%C6%B0.jpg?alt=media&token=176c1faa-4c37-45e9-a1ca-0fec838e28c6',
+            linkLinkedin: 'https://www.linkedin.com/in/nguyen-thu1311/',
+        },
+        {
             fullName: 'Đỗ Phạm Ngọc Trân',
             role: 'BCareer 2.0 Program Leader',
             desc: 'Currently a student at RMIT University Vietnam',
@@ -72,12 +79,12 @@ const OutstandingLeader = () => {
             fullName: 'Nguyễn Lê Tú Anh ',
             role: 'Marketing Challengers S12 Sponsor Leader',
             desc: 'Currently a student at RMIT University Vietnam',
-            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2Fanonymous.jpg?alt=media&token=f8b623e4-3be9-4a57-a08d-56c979c76665',
+            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2FT%C3%BA%20Anh%20Official.JPG?alt=media&token=e544d9f1-69ac-42bb-a4d6-69045d608972',
             linkLinkedin: 'https://www.linkedin.com/in/nguyenletuanh/',
         },
         {
             fullName: 'Trần Nguyễn Bảo Như',
-            role: 'MKT - Content Leader',
+            role: 'Marketing - Content Team Leader',
             desc: 'Currently a student at RMIT University Vietnam',
             imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2FB%E1%BA%A3o%20Nh%C6%B0%20.jpg?alt=media&token=93338db6-b4cf-483e-8f3c-c2ed909d5aea',
             linkLinkedin: 'https://www.linkedin.com/in/trannguyenbaonhu/',
@@ -86,7 +93,7 @@ const OutstandingLeader = () => {
             fullName: 'Nguyễn Vũ Ánh Nguyệt',
             role: 'BCareer Marketing Leader',
             desc: 'Currently a student at RMIT University Vietnam',
-            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2Fanonymous.jpg?alt=media&token=f8b623e4-3be9-4a57-a08d-56c979c76665',
+            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2F%C3%81nh%20Nguy%E1%BB%87t.jpg?alt=media&token=23076710-d399-4170-8840-7216c8992f8b',
             linkLinkedin: 'https://www.linkedin.com/in/kathnguyenn/',
         },
         {
@@ -107,14 +114,14 @@ const OutstandingLeader = () => {
             fullName: 'Phạm Ngọc Thiên',
             role: 'Marketing Challengers S12 Program Leader',
             desc: 'Currently a student at RMIT University Vietnam',
-            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2Fanonymous.jpg?alt=media&token=f8b623e4-3be9-4a57-a08d-56c979c76665',
+            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2FPh%E1%BA%A1m%20Ng%E1%BB%8Dc%20Thi%C3%AAn.jpg?alt=media&token=4e1eb920-604e-4216-86ed-c5c00b8099dd',
             linkLinkedin: 'https://www.linkedin.com/in/thien-ngoc-pham-168799222/',
         },
         {
             fullName: 'Nguyễn Thọ Tường Vy',
             role: 'The Logisticom S7 Marketing Leader',
             desc: 'Currently a student at RMIT University Vietnam',
-            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2Fanonymous.jpg?alt=media&token=f8b623e4-3be9-4a57-a08d-56c979c76665',
+            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2FNguyen%20Tho%20Tuong%20Vy.jpg?alt=media&token=a13e2d23-4327-4454-a4ea-2e1d0abeaa84',
             linkLinkedin: 'https://www.linkedin.com/in/nttv1106/',
         },
         {
@@ -125,10 +132,10 @@ const OutstandingLeader = () => {
             linkLinkedin: 'https://www.linkedin.com/in/quynh-anh-phan-64a80a219/',
         },
         {
-            fullName: 'Trần Thị Thủy',
+            fullName: 'Trần Thị Thúy',
             role: 'Marketing Challengers S12 Marketing Leader',
             desc: 'Currently a student at RMIT University Vietnam',
-            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2Fanonymous.jpg?alt=media&token=f8b623e4-3be9-4a57-a08d-56c979c76665',
+            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2FTr%E1%BA%A7n%20Th%E1%BB%8B%20Th%C3%BAy.jpeg?alt=media&token=faf42440-29fa-4cf2-bcaa-fe638c1e8ee7',
             linkLinkedin: 'https://www.linkedin.com/in/thuy-tran-/',
         },
         {
@@ -136,15 +143,16 @@ const OutstandingLeader = () => {
             role: 'Human Resources Member',
             desc: 'Currently a student at RMIT University Vietnam',
             imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2FT%C6%B0%E1%BB%9Dng%20B%C3%A1ch.jpeg?alt=media&token=f9496893-3c60-4281-9e5f-8d2b29086202',
-            linkLinkedin: '',
+            linkLinkedin: 'https://www.linkedin.com/in/nguyen-tuong-bach-7022432ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app',
         },
         {
             fullName: 'Hoàng Nguyễn Gia Hân ',
             role: 'Marketing Challengers S12 Operations Leader',
             desc: 'Currently a student at RMIT University Vietnam',
-            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2Fanonymous.jpg?alt=media&token=f8b623e4-3be9-4a57-a08d-56c979c76665',
+            imgLink: 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/HumanOfBC%2FOutstandingLeader%2FGia%20H%C3%A2n.JPG?alt=media&token=8a029c7c-9b8f-408c-afee-17533fbfb517',
             linkLinkedin: 'https://www.linkedin.com/in/h%C3%A2n-ho%C3%A0ng/',
         },
+
     ];
 
 
@@ -171,8 +179,8 @@ const OutstandingLeader = () => {
                                     <div className='overflow-hidden relative h-[260px] '>
                                         <Image alt="Picture of the author"
                                             className=' w-full object-cover'
-                                            width={500}
-                                            height={500}
+                                            width={550}
+                                            height={825}
                                             loader={() => v.imgLink}
                                             src={'me.png'}
                                         />
