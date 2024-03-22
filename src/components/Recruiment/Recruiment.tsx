@@ -33,24 +33,24 @@ const Recruiment = () => {
     const [seconds, setSeconds] = useState(0);
 
 
-    useEffect(() => {
-        var countDownDate = new Date("March 21, 2024 23:59:00").getTime();
-        var x = setInterval(function () {
+    // useEffect(() => {
+    //     var countDownDate = new Date("March 21, 2024 23:59:00").getTime();
+    //     var x = setInterval(function () {
 
-            var now = new Date().getTime();
+    //         var now = new Date().getTime();
 
-            var distance = countDownDate - now;
+    //         var distance = countDownDate - now;
 
-            setDays(Math.floor(distance / (1000 * 60 * 60 * 24)));
-            setHours(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
-            setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
-            setSeconds(Math.floor((distance % (1000 * 60)) / 1000));
-        }, 1000);
+    //         setDays(Math.floor(distance / (1000 * 60 * 60 * 24)));
+    //         setHours(Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)));
+    //         setMinutes(Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)));
+    //         setSeconds(Math.floor((distance % (1000 * 60)) / 1000));
+    //     }, 1000);
 
-        window.addEventListener('beforeunload', (event: any) => {
-            clearInterval(x);
-        });
-    }, []);
+    //     window.addEventListener('beforeunload', (event: any) => {
+    //         clearInterval(x);
+    //     });
+    // }, []);
 
     return (
         <div className='flex lg:flex-row flex-col'>
