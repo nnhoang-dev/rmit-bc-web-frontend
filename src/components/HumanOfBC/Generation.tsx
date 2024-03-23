@@ -30,8 +30,8 @@ const Generation = () => {
                                     <div className='overflow-hidden relative  bg-gray-400 '>
                                         <Image alt={v.fullName}
                                             className=' w-full object-cover'
-                                            width={500}
-                                            height={500}
+                                            width={205}
+                                            height={308}
                                             loader={() => v.imgLink}
                                             src={`${v.fullName}.jpg`}
                                             loading='lazy'
@@ -60,8 +60,8 @@ const Generation = () => {
                                         <div className='overflow-hidden relative '>
                                             <Image alt="Picture of the author"
                                                 className=' w-full object-cover'
-                                                width={500}
-                                                height={500}
+                                                width={205}
+                                                height={308}
                                                 loader={() => v.imgLink}
                                                 src={`${v.fullName}.jpg`}
                                                 loading='lazy'
