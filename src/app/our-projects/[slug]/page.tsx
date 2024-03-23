@@ -17,7 +17,7 @@ export default function Page() {
     const data: event = allEvents.filter((v) => v.slug == href)[0];
     return (
         <>
-            <Image alt="Picture of the author"
+            <Image alt={data.projectName}
                 width={500}
                 height={500}
                 style={{
@@ -25,7 +25,8 @@ export default function Page() {
                     width: '100%',
                 }}
                 loader={() => data.picture}
-                src={'me.png'}
+                src={`${data.slug}.png`}
+                loading='lazy'
             />
             <div className="max-w-screen-lg mx-auto flex flex-col">
                 {data.introduction && <IntroProject project={data} />}

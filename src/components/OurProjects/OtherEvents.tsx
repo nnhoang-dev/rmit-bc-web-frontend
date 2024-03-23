@@ -113,7 +113,7 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
                         <Link href={`/our-projects/${data.slug}`} key={i} className='px-2 lg:px-4 basis-full sm:basis-1/2 lg:basis-1/3 relative
                     mt-2 lg:mt-8 md:mt-4  hover:scale-[1.02] transition-all duration-200 ease'>
                             <div className=' shadow-lg border '>
-                                <Image alt="Picture of the author"
+                                <Image alt={data.projectName}
                                     className='h-40'
                                     width={500}
                                     height={500}
@@ -122,7 +122,8 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
                                         width: '100%',
                                     }}
                                     loader={() => (data.picture)}
-                                    src={'me.png'}
+                                    src={data.slug + '.png'}
+                                    loading='lazy'
                                 />
                                 <div className='p-4 pb-8 min-h-32'>
                                     <div className='text-xs'>
@@ -130,7 +131,7 @@ const OtherEvents = (props: { allEvents: event[]; }) => {
                                         <span className={`mx-1 xl:mx-2 ${!data.time || !data.audience ? 'hidden' : ''}`}>|</span>
                                         <span>{data.audience}</span>
                                     </div>
-                                    <div className='font-bold mt-2 line-clamp-2'>{data.projectName}</div>
+                                    <h3 className='font-bold mt-2 line-clamp-2'>{data.projectName}</h3>
                                     <div className='text-xs font-semibold absolute sm:left-6 lg:left-8 bottom-2'>{data.date}</div>
                                 </div>
                             </div>

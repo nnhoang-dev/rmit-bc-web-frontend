@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -20,7 +19,7 @@ const Generation = () => {
     return (
         <div className='flex flex-col items-center text-black px-2 py-20'>
             <div className='w-full'>
-                <div className='text-center text-5xl font-black'>HUMAN OF BC</div>
+                <h1 className='text-center text-5xl font-black'>HUMAN OF BC</h1>
                 <div className='w-full text-2xl text-primary font-bold mt-10'>Generation 19</div>
                 <div className='flex flex-col items-center'>
                     <div className='w-full flex flex-col-reverse lg:flex-row justify-between -mx-1 md:-mx-2'>
@@ -29,12 +28,13 @@ const Generation = () => {
                                 <Link href={v.linkLinkedin} target='_blank' key={i} className='mt-2 basis-1/2 sm:basis-3/12 group lg:even:mt-10 px-1 md:px-2 
                                                         md:mt-0 hover:scale-105 transition-all duration-200 ease'>
                                     <div className='overflow-hidden relative  bg-gray-400 '>
-                                        <Image alt="Picture of the author"
+                                        <Image alt={v.fullName}
                                             className=' w-full object-cover'
                                             width={500}
                                             height={500}
                                             loader={() => v.imgLink}
-                                            src={'me.png'}
+                                            src={`${v.fullName}.jpg`}
+                                            loading='lazy'
                                         />
                                         <div className=' -bottom-8 sm:-bottom-4 lg:-bottom-8 group-hover:bottom-0 transition-all ease-out duration-200
                         flex flex-col justify-end absolute h-2/5 w-full bg-gradient-to-t to-white/0 from-[#9d140c]/80 p-2 text-[10px] sm:text-[8px] leading-3 text-white'>
@@ -47,7 +47,7 @@ const Generation = () => {
                             ))}
                         </div>
                         <div className='h-full basis-5/12 px-1 md:px-2'>
-                            <div className='text-2xl sm:text-5xl font-bold text-primary mt-4'>EXECUTIVE BOARD </div>
+                            <h2 className='text-2xl sm:text-5xl font-bold text-primary mt-4'>EXECUTIVE BOARD </h2>
                             <p className='text-justify mt-2'>The Executive Board, acting as the leaders of BC, decides long-term and short-term objectives for the club. The executive board, consisting of 1 president, followed by 2 vice presidents, and 1 CFO, takes responsibility for monitoring the club toward the set goals.</p>
                         </div>
                     </div>
@@ -63,7 +63,8 @@ const Generation = () => {
                                                 width={500}
                                                 height={500}
                                                 loader={() => v.imgLink}
-                                                src={'me.png'}
+                                                src={`${v.fullName}.jpg`}
+                                                loading='lazy'
                                             />
                                             <div className='-bottom-8 sm:-bottom-4 lg:-bottom-8 group-hover:bottom-0 transition-all ease-out duration-200
                         flex flex-col justify-end absolute h-2/5 w-full bg-gradient-to-t to-white/0 from-[#9d140c]/80 p-2 text-[10px] sm:text-[8px] leading-3 text-white'>
@@ -77,7 +78,7 @@ const Generation = () => {
                             ))}
                         </div>
                         <div className='h-full basis-5/12 px-1 md:px-2'>
-                            <div className='text-2xl sm:text-5xl font-bold text-primary mt-4'>MANAGEMENT BOARD</div>
+                            <h2 className='text-2xl sm:text-5xl font-bold text-primary mt-4'>MANAGEMENT BOARD</h2>
                             <p className=' mt-2 text-justify'>The Management Board, comprising four managers per department, is responsible for overseeing departmental operations each semester. They conduct quality control assessments, set departmental goals in line with official guidelines and the club's strategic plan, and maintain communication among department members.</p>
                         </div>
                     </div>

@@ -1,8 +1,5 @@
-'use clien';
-
-import React, { use, useState } from 'react';
+import React, { useState } from 'react';
 import Title from '../Title';
-import Modal from './Modal';
 
 const OurDepartments = () => {
     const departments = [
@@ -29,7 +26,7 @@ const OurDepartments = () => {
                                                         sm:shadow-[10px_10px_rgba(0,0,0,0.2)] hover:shadow-none
                                                         transition-all duration-200 ease
                                                         '>
-                                <div>{v.title}</div>
+                                <h3>{v.title}</h3>
                                 <div className="fixed w-full sm:max-w-lg  top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary/90 rounded-lg  
                                 invisible opacity-0 -z-50 group-hover:visible group-hover:opacity-100 group-hover:z-50 ">
                                     <div className="flex items-center justify-between p-4 md:p-5 border-b rounded-t ">

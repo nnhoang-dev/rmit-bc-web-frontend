@@ -1,6 +1,5 @@
 import WhatWeDo from "@/components/Home/WhatWeDo";
 import NationalProjects from "@/components/Home/NationalProjects";
-
 import OurPartner from "@/components/Home/OurPartner";
 import Banner from "@/components/Home/Banner";
 

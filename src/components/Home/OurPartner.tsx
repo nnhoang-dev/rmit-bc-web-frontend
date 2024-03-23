@@ -152,12 +152,13 @@ const OurPartner = () => {
         let element = [];
         for (let i = (currentPage - 1) * 8; i < currentPage * 8 && i < allPartner.length; i++) {
             element.push(<div key={i} className='px-1 sm:px-4 lg:px-8 flex flex-col justify-center items-center my-2 sm:my-4'>
-                <Image alt={'Picture of the partner'}
+                <Image alt={allPartner[i].alt}
                     className='object-contain sm:h-28 md:h-32'
                     width={500}
                     height={500}
                     loader={() => allPartner[i].link}
-                    src={'partner'}
+                    src={allPartner[i].alt}
+                    loading='lazy'
                 />
             </div>);
 

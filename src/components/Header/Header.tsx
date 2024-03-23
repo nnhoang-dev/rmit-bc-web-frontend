@@ -13,7 +13,7 @@ const Header = () => {
             <div className='w-full bg-primary h-20 border-solid text-white'>
                 <div className='max-w-screen-xl mx-auto px-2 h-full flex justify-between items-center'>
                     <Link href='/' className='w-40 py-2'>
-                        <Image alt="Picture of the author"
+                        <Image alt="RMIT Vietnam Business Club"
                             width={3478}
                             height={1018}
                             style={{
@@ -21,9 +21,9 @@ const Header = () => {
                                 height: '100%',
                             }}
                             loader={() => 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/LogoBCMauTrang.png?alt=media&token=16ea3b56-88b5-4257-b8ec-38860ea96237'}
-                            src={'logo.png'}
+                            src={'rmit-vietnam-business-club-logo.png'}
+                            loading='lazy'
                         />
-                        {/* <span>Business Club</span> */}
                     </Link>
                     <div className='h-10 w-10 cursor-pointer' onClick={() => { setNavbar(!navbar); document.documentElement.scrollTop = 0; }}>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z" /></svg>
@@ -35,15 +35,16 @@ const Header = () => {
                 <div className='w-full bg-primary h-20 border-solid text-white'>
                     <div className='max-w-screen-xl mx-auto px-2 h-full flex justify-between items-center'>
                         <Link href='/' className='w-40 py-2'>
-                            <Image alt="Picture of the author"
-                                width={500}
-                                height={500}
+                            <Image alt="RMIT Vietnam Business Club"
+                                width={3478}
+                                height={1018}
                                 style={{
                                     objectFit: 'contain',
                                     height: '100%',
                                 }}
                                 loader={() => 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/LogoBCMauTrang.png?alt=media&token=16ea3b56-88b5-4257-b8ec-38860ea96237'}
-                                src={'logo.png'}
+                                src={'rmit-vietnam-business-club-logo.png'}
+                                loading='lazy'
                             />
                             {/* <span>Business Club</span> */}
                         </Link>

@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image';
 import Title from '../Title';
 import Link from 'next/link';
@@ -164,12 +163,12 @@ const OutstandingLeader = () => {
                 <Title title='Outstanding Leaders' />
                 <div className='w-full flex flex-col lg:flex-row  justify-between -mx-2 sm:-mx-4 '>
                     <div className='lg:hidden basis-3/12 px-2 mt-10 '>
-                        <Image alt="Picture of the author"
+                        <Image alt="RMIT Vietnam Business Club"
                             className=' object-cover w-full'
                             width={500}
                             height={500}
                             loader={() => 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/20240312_004753_0000.png?alt=media&token=acdd245b-6932-47b0-8ca8-7ad243082df9'}
-                            src={'me.png'}
+                            src={'RMIT Vietnam Business Club.png'}
                         />
                     </div>
                     <div className='lg:basis-9/12 px-2 sm:px-2  mt-10'>
@@ -177,12 +176,13 @@ const OutstandingLeader = () => {
                             {dataOutstandingLeader.map((v, i) => (
                                 <Link href={v.linkLinkedin} target='_blank' key={i} className='h-[260px] w-[190px] group basis-1/2 md:basis-1/4 group  px-1 md:px-2 mb-2 md:mb-4 hover:scale-105 transition-all duration-200 ease'>
                                     <div className='overflow-hidden relative h-[260px] '>
-                                        <Image alt="Picture of the author"
+                                        <Image alt={v.fullName}
                                             className=' w-full object-cover'
                                             width={550}
                                             height={825}
                                             loader={() => v.imgLink}
-                                            src={'me.png'}
+                                            src={v.fullName + ".png"}
+                                            loading='lazy'
                                         />
                                         <div className=' p-2  text-xs bg-white -bottom-4  group-hover:bottom-0 transition-all ease-out duration-200
                                             flex flex-col justify-start absolute h-24 w-full text-[9px] sm:text-[12px] sm:leading-[16px] '>
@@ -215,12 +215,12 @@ const OutstandingLeader = () => {
                     </div>
 
                     <div className='hidden lg:block basis-3/12 px-2 mt-10 '>
-                        <Image alt="Picture of the author"
+                        <Image alt="RMIT Vietnam Business Club"
                             className=' object-cover w-full'
                             width={500}
                             height={500}
                             loader={() => 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/once%20a%20BCer.jpg?alt=media&token=78951f5d-adf9-4eae-9571-4e3f6930fd6d'}
-                            src={'me.png'}
+                            src={'RMIT Vietnam Business Club.png'}
                         />
                     </div>
                 </div>

@@ -1,10 +1,9 @@
-import React from 'react';
 import { event } from '@/lib/interface';
 
 const Recap = (props: { project: event; }) => {
     return (
         <div className='container mx-auto px-2 flex flex-col justify-center items-center py-10'>
-            <div className='text-primary text-3xl font-bold text-center'>Recap</div>
+            <h2 className='text-primary text-3xl font-bold text-center'>Recap</h2>
             {props.project.typeRecap == 'video' ? (
                 <div className='relative w-full mt-4 '>
                     <div className='overflow-hidden pt-[60%] '>

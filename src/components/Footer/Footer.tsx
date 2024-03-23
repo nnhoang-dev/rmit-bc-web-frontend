@@ -13,7 +13,7 @@ const Footer = () => {
                     <div className='w-full mx-auto flex flex-col md:flex-row items-center justify-between '>
                         <div className="max-w-[400px] md:basis-6/12 px-4 flex flex-col text-center md:text-left justify-center items-center md:justify-normal md:items-start" >
                             <Link href='/' className='w-40 py-2'>
-                                <Image alt="Picture of the author"
+                                <Image alt="RMIT Vietnam Business Club"
                                     width={3478}
                                     height={1018}
                                     style={{
@@ -21,12 +21,13 @@ const Footer = () => {
                                         height: '100%',
                                     }}
                                     loader={() => 'https://firebasestorage.googleapis.com/v0/b/rmit-bc-web-storage.appspot.com/o/LogoBCMauTrang.png?alt=media&token=16ea3b56-88b5-4257-b8ec-38860ea96237'}
-                                    src={'logo.png'}
+                                    src={'rmit-vietnam-business-club-logo.png'}
+                                    loading='lazy'
                                 />
                             </Link>
                             <div className="info">
                                 <div className='font-extrabold  mb-1'>RMIT Vietnam Business Club - SGS</div>
-                                <div>Founded in 2004, making us the oldest active academic club at RMIT with the vision of nurturing future business leaders.</div>
+                                <div>RMIT Vietnam Business Club founded in 2004, making us the oldest active academic club at RMIT with the vision of nurturing future business leaders.</div>
                             </div>
                         </div>
                         <div className="hidden px-4 lg:flex flex-col">

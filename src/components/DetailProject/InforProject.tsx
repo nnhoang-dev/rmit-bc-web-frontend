@@ -1,16 +1,11 @@
-'use client';
 import { event } from '@/lib/interface';
-import React from 'react';
 
 const IntroProject = (props: { project: event; }) => {
-
-
-
     return (
         <div className='container mx-auto px-2'>
 
             <div className='w-full flex justify-center my-10'>
-                <h2 className=' font-bold text-xl sm:text-4xl'>{props.project.projectName}</h2>
+                <h1 className=' font-bold text-xl sm:text-4xl'>{props.project.projectName}</h1>
                 <div className='ml-2 flex justify-center items-center'>
                     <div className='px-4 py-2 bg-gray-400  font-bold text-white'>{props.project.status}</div>
                 </div>

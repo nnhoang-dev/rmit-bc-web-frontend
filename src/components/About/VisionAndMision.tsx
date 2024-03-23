@@ -1,5 +1,3 @@
-import React from 'react';
-
 const VisionAndMision = () => {
     return (
         <div className=' bg-gradient-to-r from-black to-primary px-2'>
